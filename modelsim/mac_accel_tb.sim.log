@@ -1,0 +1,2397 @@
+# vsim -default_radix unsigned -voptargs="+acc" -sdfnoerror "+neg_tchk" "+no_notifier" -sdfmax "/mac_accel_tb/mac_accel=/ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf" -l mac_accel_tb.sim.log work.mac_accel_tb 
+# Start time: 17:39:11 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mac_accel_tb_sv_unit(fast)
+# Loading work.mac_accel_tb(fast)
+# Loading work.mult_if(fast)
+# Loading work.mac_accel(fast)
+# Loading work.CLKBUFX3(fast)
+# Loading work.CLKBUFX12(fast)
+# Loading work.BUFX3(fast)
+# Loading work.INVXL(fast)
+# Loading work.MXI2XL(fast)
+# Loading work.XNOR2X1(fast)
+# Loading work.CLKXOR2X1(fast)
+# Loading work.BUFX6(fast)
+# Loading work.CLKBUFX2(fast)
+# Loading work.CLKBUFX8(fast)
+# Loading work.OAI22X2(fast)
+# Loading work.OAI21X2(fast)
+# Loading work.OR2XL(fast)
+# Loading work.OAI2BB1X1(fast)
+# Loading work.INVX1(fast)
+# Loading work.NOR2BX1(fast)
+# Loading work.AOI21X1(fast)
+# Loading work.OAI21X1(fast)
+# Loading work.NOR2X1(fast)
+# Loading work.AOI2BB1XL(fast)
+# Loading work.OA21X1(fast)
+# Loading work.XOR2XL(fast)
+# Loading work.NAND2X1(fast)
+# Loading work.NAND2BX1(fast)
+# Loading work.OR2X1(fast)
+# Loading work.NAND3BX1(fast)
+# Loading work.NAND2X2(fast)
+# Loading work.INVX3(fast)
+# Loading work.CLKINVX4(fast)
+# Loading work.OAI2BB1X2(fast)
+# Loading work.OAI22XL(fast)
+# Loading work.INVX2(fast)
+# Loading work.OAI21X4(fast)
+# Loading work.MXI2X1(fast)
+# Loading work.OAI22X1(fast)
+# Loading work.NAND2BX2(fast)
+# Loading work.AND2XL(fast)
+# Loading work.AOI2BB1X1(fast)
+# Loading work.NAND2BXL(fast)
+# Loading work.CLKAND2X2(fast)
+# Loading work.NAND3BXL(fast)
+# Loading work.XNOR2XL(fast)
+# Loading work.NAND2X4(fast)
+# Loading work.NAND3BX2(fast)
+# Loading work.AOI211X1(fast)
+# Loading work.OAI211X1(fast)
+# Loading work.NOR3X2(fast)
+# Loading work.AOI21X2(fast)
+# Loading work.AOI2BB1X2(fast)
+# Loading work.OAI2BB2XL(fast)
+# Loading work.OAI211X2(fast)
+# Loading work.AND2X1(fast)
+# Loading work.OAI21XL(fast)
+# Loading work.NOR2X4(fast)
+# Loading work.AOI21X4(fast)
+# Loading work.NOR2X2(fast)
+# Loading work.NOR3BX1(fast)
+# Loading work.NAND3BX4(fast)
+# Loading work.NOR3X1(fast)
+# Loading work.AOI211XL(fast)
+# Loading work.NAND2XL(fast)
+# Loading work.AOI31X1(fast)
+# Loading work.CLKINVX6(fast)
+# Loading work.CLKINVX8(fast)
+# Loading work.OAI31X4(fast)
+# Loading work.AOI221X1(fast)
+# Loading work.OAI31X1(fast)
+# Loading work.NOR2XL(fast)
+# Loading work.BUFX12(fast)
+# Loading work.NOR2BX2(fast)
+# Loading work.CLKAND2X3(fast)
+# Loading work.BUFX4(fast)
+# Loading work.XOR3XL(fast)
+# Loading work.OAI2BB2X1(fast)
+# Loading work.BUFX16(fast)
+# Loading work.NAND2BX4(fast)
+# Loading work.OAI31X2(fast)
+# Loading work.NAND2X6(fast)
+# Loading work.AND2X4(fast)
+# Loading work.AOI211X2(fast)
+# Loading work.AOI32X1(fast)
+# Loading work.AOI22X1(fast)
+# Loading work.AOI221X2(fast)
+# Loading work.NAND3X1(fast)
+# Loading work.NOR2BX4(fast)
+# Loading work.NAND2X8(fast)
+# Loading work.OR2X4(fast)
+# Loading work.AO21X1(fast)
+# Loading work.NAND3X2(fast)
+# Loading work.XOR3X1(fast)
+# Loading work.ACHCONX2(fast)
+# Loading work.AOI221X4(fast)
+# Loading work.OAI2BB2X2(fast)
+# Loading work.CLKXOR2X2(fast)
+# Loading work.INVX4(fast)
+# Loading work.DFFRHQX1(fast)
+# Loading work.DFFQXL(fast)
+# Loading work.DFFHQX1(fast)
+# Loading work.DFFQX2(fast)
+# Loading work.ADDFHX1(fast)
+# Loading work.ADDFX1(fast)
+# Loading work.ADDFHXL(fast)
+# Loading work.ADDFX2(fast)
+# Loading work.ADDFHX2(fast)
+# Loading work.OR2X6(fast)
+# Loading work.ADDFXL(fast)
+# Loading work.ADDHX1(fast)
+# Loading work.ADDHXL(fast)
+# Loading work.AOI22XL(fast)
+# Loading work.NOR3XL(fast)
+# Loading work.SDFFRHQX1(fast)
+# Loading work.NOR4X1(fast)
+# Loading work.AO22XL(fast)
+# Loading work.NAND4XL(fast)
+# Loading work.AND2X2(fast)
+# Loading work.OAI221X1(fast)
+# Loading work.XNOR2X2(fast)
+# Loading work.OAI32X1(fast)
+# Loading work.OR3XL(fast)
+# Loading work.AO21X2(fast)
+# Loading work.AOI31X4(fast)
+# Loading work.AO21XL(fast)
+# Loading work.AOI31X2(fast)
+# Loading work.DFFRX2(fast)
+# Loading work.NOR4BBX1(fast)
+# Loading work.AO22X1(fast)
+# Loading work.OAI211X4(fast)
+# Loading work.memory_wrapper_2port(fast)
+# Loading work.registerArray(fast)
+# Loading instances from /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf
+# Loading work.mult_if(fast)
+# Loading timing data from /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(159): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(160): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(175): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(176): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(177): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(178): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(179): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(180): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(181): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(182): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(183): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(184): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(185): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(186): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(187): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(188): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(189): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(190): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(191): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(192): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(193): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(194): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(195): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(196): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(197): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(198): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(199): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(200): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(201): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(202): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(203): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(204): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(205): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(206): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(207): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(208): Annotating cell drivers of INTERCONNECT source port.
+# ** Warning: (vsim-SDF-3438) /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/output/mac_accel_pnr.sdf(209): Annotating cell drivers of INTERCONNECT source port.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /mac_accel_tb File: /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/modelsim/mac_accel_tb.sv
+run -all
+# T=18000 [Driver] starting ...
+# T=18000 [Monitor] requests starting...
+# T=18000 [Monitor] read starting...
+# T=18000 [Monitor] writes starting...
+# T=18000 [Generator] Has Started
+# T=18000 [Generator] Loop:1/64 create next item
+# T=18000 [Scoreboard] starting...
+# T=20500 [Driver] A={0,0,0,0} B={1,1,1,1}
+# T=22000 [Monitor] captured MAC request. Exp Sum=0
+# T=22000 [Generator] Loop:2/64 create next item
+# T=22500 [Driver] A={1,1,1,1} B={1,1,1,1}
+# T=24000 [Monitor] captured MAC request. Exp Sum=4
+# T=24000 [Generator] Loop:3/64 create next item
+# T=24500 [Driver] A={2,2,2,2} B={1,1,1,1}
+# T=26000 [Monitor] captured MAC request. Exp Sum=8
+# T=26000 [Generator] Loop:4/64 create next item
+# T=26500 [Driver] A={3,3,3,3} B={1,1,1,1}
+# T=28000 [Monitor] captured MAC request. Exp Sum=12
+# T=28000 [Generator] Loop:5/64 create next item
+# T=28500 [Driver] A={4,4,4,4} B={1,1,1,1}
+# T=30000 [Monitor] captured MAC request. Exp Sum=16
+# T=30000 [Generator] Loop:6/64 create next item
+# T=30500 [Driver] A={5,5,5,5} B={1,1,1,1}
+# T=31900 [Monitor] captured write @addr 0, val=0
+# T=32000 [Monitor] captured MAC request. Exp Sum=20
+# T=32000 [Generator] Loop:7/64 create next item
+# T=32500 [Driver] A={6,6,6,6} B={1,1,1,1}
+# T=33900 [Monitor] captured write @addr 1, val=4
+# T=34000 [Monitor] captured MAC request. Exp Sum=24
+# T=34000 [Generator] Loop:8/64 create next item
+# T=34500 [Driver] A={7,7,7,7} B={1,1,1,1}
+# T=35900 [Monitor] captured write @addr 2, val=8
+# T=36000 [Monitor] captured MAC request. Exp Sum=28
+# T=36000 [Generator] Loop:9/64 create next item
+# T=36500 [Driver] A={8,8,8,8} B={1,1,1,1}
+# T=37900 [Monitor] captured write @addr 3, val=12
+# T=38000 [Monitor] captured MAC request. Exp Sum=32
+# T=38000 [Generator] Loop:10/64 create next item
+# T=38500 [Driver] A={9,9,9,9} B={1,1,1,1}
+# T=39900 [Monitor] captured write @addr 4, val=16
+# T=40000 [Monitor] captured MAC request. Exp Sum=36
+# T=40000 [Generator] Loop:11/64 create next item
+# T=40500 [Driver] A={10,10,10,10} B={1,1,1,1}
+# T=41900 [Monitor] captured write @addr 5, val=20
+# T=42000 [Monitor] captured MAC request. Exp Sum=40
+# T=42000 [Generator] Loop:12/64 create next item
+# T=42500 [Driver] A={11,11,11,11} B={1,1,1,1}
+# T=43900 [Monitor] captured write @addr 6, val=24
+# T=44000 [Monitor] captured MAC request. Exp Sum=44
+# T=44000 [Generator] Loop:13/64 create next item
+# T=44500 [Driver] A={12,12,12,12} B={1,1,1,1}
+# T=45900 [Monitor] captured write @addr 7, val=28
+# T=46000 [Monitor] captured MAC request. Exp Sum=48
+# T=46000 [Generator] Loop:14/64 create next item
+# T=46500 [Driver] A={13,13,13,13} B={1,1,1,1}
+# T=47900 [Monitor] captured write @addr 8, val=32
+# T=48000 [Monitor] captured MAC request. Exp Sum=52
+# T=48000 [Generator] Loop:15/64 create next item
+# T=48500 [Driver] A={14,14,14,14} B={1,1,1,1}
+# T=49900 [Monitor] captured write @addr 9, val=36
+# T=50000 [Monitor] captured MAC request. Exp Sum=56
+# T=50000 [Generator] Loop:16/64 create next item
+# T=50500 [Driver] A={15,15,15,15} B={1,1,1,1}
+# T=51900 [Monitor] captured write @addr 10, val=40
+# T=52000 [Monitor] captured MAC request. Exp Sum=60
+# T=52000 [Generator] Loop:17/64 create next item
+# T=52500 [Driver] A={16,16,16,16} B={1,1,1,1}
+# T=53900 [Monitor] captured write @addr 11, val=44
+# T=54000 [Monitor] captured MAC request. Exp Sum=64
+# T=54000 [Generator] Loop:18/64 create next item
+# T=54500 [Driver] A={17,17,17,17} B={1,1,1,1}
+# T=55900 [Monitor] captured write @addr 12, val=48
+# T=56000 [Monitor] captured MAC request. Exp Sum=68
+# T=56000 [Generator] Loop:19/64 create next item
+# T=56500 [Driver] A={18,18,18,18} B={1,1,1,1}
+# T=57900 [Monitor] captured write @addr 13, val=52
+# T=58000 [Monitor] captured MAC request. Exp Sum=72
+# T=58000 [Generator] Loop:20/64 create next item
+# T=58500 [Driver] A={19,19,19,19} B={1,1,1,1}
+# T=59900 [Monitor] captured write @addr 14, val=56
+# T=60000 [Monitor] captured MAC request. Exp Sum=76
+# T=60000 [Generator] Loop:21/64 create next item
+# T=60500 [Driver] A={20,20,20,20} B={1,1,1,1}
+# T=61900 [Monitor] captured write @addr 15, val=60
+# T=62000 [Monitor] captured MAC request. Exp Sum=80
+# T=62000 [Generator] Loop:22/64 create next item
+# T=62500 [Driver] A={21,21,21,21} B={1,1,1,1}
+# T=63900 [Monitor] captured write @addr 16, val=64
+# T=64000 [Monitor] captured MAC request. Exp Sum=84
+# T=64000 [Generator] Loop:23/64 create next item
+# T=64500 [Driver] A={22,22,22,22} B={1,1,1,1}
+# T=65900 [Monitor] captured write @addr 17, val=68
+# T=66000 [Monitor] captured MAC request. Exp Sum=88
+# T=66000 [Generator] Loop:24/64 create next item
+# T=66500 [Driver] A={23,23,23,23} B={1,1,1,1}
+# T=67900 [Monitor] captured write @addr 18, val=72
+# T=68000 [Monitor] captured MAC request. Exp Sum=92
+# T=68000 [Generator] Loop:25/64 create next item
+# T=68500 [Driver] A={24,24,24,24} B={1,1,1,1}
+# T=69900 [Monitor] captured write @addr 19, val=76
+# T=70000 [Monitor] captured MAC request. Exp Sum=96
+# T=70000 [Generator] Loop:26/64 create next item
+# T=70500 [Driver] A={25,25,25,25} B={1,1,1,1}
+# T=71900 [Monitor] captured write @addr 20, val=80
+# T=72000 [Monitor] captured MAC request. Exp Sum=100
+# T=72000 [Generator] Loop:27/64 create next item
+# T=72500 [Driver] A={26,26,26,26} B={1,1,1,1}
+# T=73900 [Monitor] captured write @addr 21, val=84
+# T=74000 [Monitor] captured MAC request. Exp Sum=104
+# T=74000 [Generator] Loop:28/64 create next item
+# T=74500 [Driver] A={27,27,27,27} B={1,1,1,1}
+# T=75900 [Monitor] captured write @addr 22, val=88
+# T=76000 [Monitor] captured MAC request. Exp Sum=108
+# T=76000 [Generator] Loop:29/64 create next item
+# T=76500 [Driver] A={28,28,28,28} B={1,1,1,1}
+# T=77900 [Monitor] captured write @addr 23, val=92
+# T=78000 [Monitor] captured MAC request. Exp Sum=112
+# T=78000 [Generator] Loop:30/64 create next item
+# T=78500 [Driver] A={29,29,29,29} B={1,1,1,1}
+# T=79900 [Monitor] captured write @addr 24, val=96
+# T=80000 [Monitor] captured MAC request. Exp Sum=116
+# T=80000 [Generator] Loop:31/64 create next item
+# T=80500 [Driver] A={30,30,30,30} B={1,1,1,1}
+# T=81900 [Monitor] captured write @addr 25, val=100
+# T=82000 [Monitor] captured MAC request. Exp Sum=120
+# T=82000 [Generator] Loop:32/64 create next item
+# T=82500 [Driver] A={31,31,31,31} B={1,1,1,1}
+# T=83900 [Monitor] captured write @addr 26, val=104
+# T=84000 [Monitor] captured MAC request. Exp Sum=124
+# T=84000 [Generator] Loop:33/64 create next item
+# T=84500 [Driver] A={32,32,32,32} B={1,1,1,1}
+# T=85900 [Monitor] captured write @addr 27, val=108
+# T=86000 [Monitor] captured MAC request. Exp Sum=128
+# T=86000 [Generator] Loop:34/64 create next item
+# T=86500 [Driver] A={33,33,33,33} B={1,1,1,1}
+# T=87900 [Monitor] captured write @addr 28, val=112
+# T=88000 [Monitor] captured MAC request. Exp Sum=132
+# T=88000 [Generator] Loop:35/64 create next item
+# T=88500 [Driver] A={34,34,34,34} B={1,1,1,1}
+# T=89900 [Monitor] captured write @addr 29, val=116
+# T=90000 [Monitor] captured MAC request. Exp Sum=136
+# T=90000 [Generator] Loop:36/64 create next item
+# T=90500 [Driver] A={35,35,35,35} B={1,1,1,1}
+# T=91900 [Monitor] captured write @addr 30, val=120
+# T=92000 [Monitor] captured MAC request. Exp Sum=140
+# T=92000 [Generator] Loop:37/64 create next item
+# T=92500 [Driver] A={36,36,36,36} B={1,1,1,1}
+# T=93900 [Monitor] captured write @addr 31, val=124
+# T=94000 [Monitor] captured MAC request. Exp Sum=144
+# T=94000 [Generator] Loop:38/64 create next item
+# T=94500 [Driver] A={37,37,37,37} B={1,1,1,1}
+# T=95900 [Monitor] captured write @addr 32, val=128
+# T=96000 [Monitor] captured MAC request. Exp Sum=148
+# T=96000 [Generator] Loop:39/64 create next item
+# T=96500 [Driver] A={38,38,38,38} B={1,1,1,1}
+# T=97900 [Monitor] captured write @addr 33, val=132
+# T=98000 [Monitor] captured MAC request. Exp Sum=152
+# T=98000 [Generator] Loop:40/64 create next item
+# T=98500 [Driver] A={39,39,39,39} B={1,1,1,1}
+# T=99900 [Monitor] captured write @addr 34, val=136
+# T=100000 [Monitor] captured MAC request. Exp Sum=156
+# T=100000 [Generator] Loop:41/64 create next item
+# T=100500 [Driver] A={40,40,40,40} B={1,1,1,1}
+# T=101900 [Monitor] captured write @addr 35, val=140
+# T=102000 [Monitor] captured MAC request. Exp Sum=160
+# T=102000 [Generator] Loop:42/64 create next item
+# T=102500 [Driver] A={41,41,41,41} B={1,1,1,1}
+# T=103900 [Monitor] captured write @addr 36, val=144
+# T=104000 [Monitor] captured MAC request. Exp Sum=164
+# T=104000 [Generator] Loop:43/64 create next item
+# T=104500 [Driver] A={42,42,42,42} B={1,1,1,1}
+# T=105900 [Monitor] captured write @addr 37, val=148
+# T=106000 [Monitor] captured MAC request. Exp Sum=168
+# T=106000 [Generator] Loop:44/64 create next item
+# T=106500 [Driver] A={43,43,43,43} B={1,1,1,1}
+# T=107900 [Monitor] captured write @addr 38, val=152
+# T=108000 [Monitor] captured MAC request. Exp Sum=172
+# T=108000 [Generator] Loop:45/64 create next item
+# T=108500 [Driver] A={44,44,44,44} B={1,1,1,1}
+# T=109900 [Monitor] captured write @addr 39, val=156
+# T=110000 [Monitor] captured MAC request. Exp Sum=176
+# T=110000 [Generator] Loop:46/64 create next item
+# T=110500 [Driver] A={45,45,45,45} B={1,1,1,1}
+# T=111900 [Monitor] captured write @addr 40, val=160
+# T=112000 [Monitor] captured MAC request. Exp Sum=180
+# T=112000 [Generator] Loop:47/64 create next item
+# T=112500 [Driver] A={46,46,46,46} B={1,1,1,1}
+# T=113900 [Monitor] captured write @addr 41, val=164
+# T=114000 [Monitor] captured MAC request. Exp Sum=184
+# T=114000 [Generator] Loop:48/64 create next item
+# T=114500 [Driver] A={47,47,47,47} B={1,1,1,1}
+# T=115900 [Monitor] captured write @addr 42, val=168
+# T=116000 [Monitor] captured MAC request. Exp Sum=188
+# T=116000 [Generator] Loop:49/64 create next item
+# T=116500 [Driver] A={48,48,48,48} B={1,1,1,1}
+# T=117900 [Monitor] captured write @addr 43, val=172
+# T=118000 [Monitor] captured MAC request. Exp Sum=192
+# T=118000 [Generator] Loop:50/64 create next item
+# T=118500 [Driver] A={49,49,49,49} B={1,1,1,1}
+# T=119900 [Monitor] captured write @addr 44, val=176
+# T=120000 [Monitor] captured MAC request. Exp Sum=196
+# T=120000 [Generator] Loop:51/64 create next item
+# T=120500 [Driver] A={50,50,50,50} B={1,1,1,1}
+# T=121900 [Monitor] captured write @addr 45, val=180
+# T=122000 [Monitor] captured MAC request. Exp Sum=200
+# T=122000 [Generator] Loop:52/64 create next item
+# T=122500 [Driver] A={51,51,51,51} B={1,1,1,1}
+# T=123900 [Monitor] captured write @addr 46, val=184
+# T=124000 [Monitor] captured MAC request. Exp Sum=204
+# T=124000 [Generator] Loop:53/64 create next item
+# T=124500 [Driver] A={52,52,52,52} B={1,1,1,1}
+# T=125900 [Monitor] captured write @addr 47, val=188
+# T=126000 [Monitor] captured MAC request. Exp Sum=208
+# T=126000 [Generator] Loop:54/64 create next item
+# T=126500 [Driver] A={53,53,53,53} B={1,1,1,1}
+# T=127900 [Monitor] captured write @addr 48, val=192
+# T=128000 [Monitor] captured MAC request. Exp Sum=212
+# T=128000 [Generator] Loop:55/64 create next item
+# T=128500 [Driver] A={54,54,54,54} B={1,1,1,1}
+# T=129900 [Monitor] captured write @addr 49, val=196
+# T=130000 [Monitor] captured MAC request. Exp Sum=216
+# T=130000 [Generator] Loop:56/64 create next item
+# T=130500 [Driver] A={55,55,55,55} B={1,1,1,1}
+# T=131900 [Monitor] captured write @addr 50, val=200
+# T=132000 [Monitor] captured MAC request. Exp Sum=220
+# T=132000 [Generator] Loop:57/64 create next item
+# T=132500 [Driver] A={56,56,56,56} B={1,1,1,1}
+# T=133900 [Monitor] captured write @addr 51, val=204
+# T=134000 [Monitor] captured MAC request. Exp Sum=224
+# T=134000 [Generator] Loop:58/64 create next item
+# T=134500 [Driver] A={57,57,57,57} B={1,1,1,1}
+# T=135900 [Monitor] captured write @addr 52, val=208
+# T=136000 [Monitor] captured MAC request. Exp Sum=228
+# T=136000 [Generator] Loop:59/64 create next item
+# T=136500 [Driver] A={58,58,58,58} B={1,1,1,1}
+# T=137900 [Monitor] captured write @addr 53, val=212
+# T=138000 [Monitor] captured MAC request. Exp Sum=232
+# T=138000 [Generator] Loop:60/64 create next item
+# T=138500 [Driver] A={59,59,59,59} B={1,1,1,1}
+# T=139900 [Monitor] captured write @addr 54, val=216
+# T=140000 [Monitor] captured MAC request. Exp Sum=236
+# T=140000 [Generator] Loop:61/64 create next item
+# T=140500 [Driver] A={60,60,60,60} B={1,1,1,1}
+# T=141900 [Monitor] captured write @addr 55, val=220
+# T=142000 [Monitor] captured MAC request. Exp Sum=240
+# T=142000 [Generator] Loop:62/64 create next item
+# T=142500 [Driver] A={61,61,61,61} B={1,1,1,1}
+# T=143900 [Monitor] captured write @addr 56, val=224
+# T=144000 [Monitor] captured MAC request. Exp Sum=244
+# T=144000 [Generator] Loop:63/64 create next item
+# T=144500 [Driver] A={62,62,62,62} B={1,1,1,1}
+# T=145900 [Monitor] captured write @addr 57, val=228
+# T=146000 [Monitor] captured MAC request. Exp Sum=248
+# T=146000 [Generator] Loop:64/64 create next item
+# T=146500 [Driver] A={63,63,63,63} B={1,1,1,1}
+# T=147900 [Monitor] captured write @addr 58, val=232
+# T=148000 [Monitor] captured MAC request. Exp Sum=252
+# T=148000 [Generator] Done generation of 64 items
+# T=149900 [Monitor] captured write @addr 59, val=236
+# T=151900 [Monitor] captured write @addr 60, val=240
+# T=153900 [Monitor] captured write @addr 61, val=244
+# T=155900 [Monitor] captured write @addr 62, val=248
+# T=157900 [Monitor] captured write @addr 63, val=252
+# T=158860 [Generator] Read Begin
+# T=159360 [Driver] starting read
+# ** Error: $setup( negedge D:160300 ps, posedge CK:160410 ps, 130 ps );
+#    Time: 160410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][0][3] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# T=160500 [Driver]  driving read
+# T=162500 [Driver]  driving read
+# T=164500 [Driver]  driving read
+# T=165900 [Monitor] captured read @addr 0, val=0
+# T=166500 [Driver]  driving read
+# T=167900 [Monitor] captured read @addr 1, val=4
+# T=168500 [Driver]  driving read
+# T=169900 [Monitor] captured read @addr 2, val=8
+# T=170500 [Driver]  driving read
+# T=171900 [Monitor] captured read @addr 3, val=12
+# T=172500 [Driver]  driving read
+# T=173900 [Monitor] captured read @addr 4, val=16
+# T=174500 [Driver]  driving read
+# T=175900 [Monitor] captured read @addr 5, val=20
+# T=176500 [Driver]  driving read
+# T=177900 [Monitor] captured read @addr 6, val=24
+# T=178500 [Driver]  driving read
+# T=179900 [Monitor] captured read @addr 7, val=28
+# T=180500 [Driver]  driving read
+# T=181900 [Monitor] captured read @addr 8, val=32
+# T=182500 [Driver]  driving read
+# T=183900 [Monitor] captured read @addr 9, val=36
+# T=184500 [Driver]  driving read
+# T=185900 [Monitor] captured read @addr 10, val=40
+# T=186500 [Driver]  driving read
+# T=187900 [Monitor] captured read @addr 11, val=44
+# T=188500 [Driver]  driving read
+# T=189900 [Monitor] captured read @addr 12, val=48
+# T=190500 [Driver]  driving read
+# T=191900 [Monitor] captured read @addr 13, val=52
+# T=192500 [Driver]  driving read
+# T=193900 [Monitor] captured read @addr 14, val=56
+# T=194500 [Driver]  driving read
+# T=195900 [Monitor] captured read @addr 15, val=60
+# T=196500 [Driver]  driving read
+# T=197900 [Monitor] captured read @addr 16, val=64
+# T=198500 [Driver]  driving read
+# T=199900 [Monitor] captured read @addr 17, val=68
+# T=200500 [Driver]  driving read
+# T=201900 [Monitor] captured read @addr 18, val=72
+# T=202500 [Driver]  driving read
+# T=203900 [Monitor] captured read @addr 19, val=76
+# T=204500 [Driver]  driving read
+# T=205900 [Monitor] captured read @addr 20, val=80
+# T=206500 [Driver]  driving read
+# T=207900 [Monitor] captured read @addr 21, val=84
+# T=208500 [Driver]  driving read
+# T=209900 [Monitor] captured read @addr 22, val=88
+# T=210500 [Driver]  driving read
+# T=211900 [Monitor] captured read @addr 23, val=92
+# T=212500 [Driver]  driving read
+# T=213900 [Monitor] captured read @addr 24, val=96
+# T=214500 [Driver]  driving read
+# T=215900 [Monitor] captured read @addr 25, val=100
+# T=216500 [Driver]  driving read
+# T=217900 [Monitor] captured read @addr 26, val=104
+# T=218500 [Driver]  driving read
+# T=219900 [Monitor] captured read @addr 27, val=108
+# T=220500 [Driver]  driving read
+# T=221900 [Monitor] captured read @addr 28, val=112
+# T=222500 [Driver]  driving read
+# T=223900 [Monitor] captured read @addr 29, val=116
+# T=224500 [Driver]  driving read
+# T=225900 [Monitor] captured read @addr 30, val=120
+# T=226500 [Driver]  driving read
+# T=227900 [Monitor] captured read @addr 31, val=124
+# T=228500 [Driver]  driving read
+# T=229900 [Monitor] captured read @addr 32, val=128
+# T=230500 [Driver]  driving read
+# T=231900 [Monitor] captured read @addr 33, val=132
+# T=232500 [Driver]  driving read
+# T=233900 [Monitor] captured read @addr 34, val=136
+# T=234500 [Driver]  driving read
+# T=235900 [Monitor] captured read @addr 35, val=140
+# T=236500 [Driver]  driving read
+# T=237900 [Monitor] captured read @addr 36, val=144
+# T=238500 [Driver]  driving read
+# T=239900 [Monitor] captured read @addr 37, val=148
+# T=240500 [Driver]  driving read
+# T=241900 [Monitor] captured read @addr 38, val=152
+# T=242500 [Driver]  driving read
+# T=243900 [Monitor] captured read @addr 39, val=156
+# T=244500 [Driver]  driving read
+# T=245900 [Monitor] captured read @addr 40, val=160
+# T=246500 [Driver]  driving read
+# T=247900 [Monitor] captured read @addr 41, val=164
+# T=248500 [Driver]  driving read
+# T=249900 [Monitor] captured read @addr 42, val=168
+# T=250500 [Driver]  driving read
+# T=251900 [Monitor] captured read @addr 43, val=172
+# T=252500 [Driver]  driving read
+# T=253900 [Monitor] captured read @addr 44, val=176
+# T=254500 [Driver]  driving read
+# T=255900 [Monitor] captured read @addr 45, val=180
+# T=256500 [Driver]  driving read
+# T=257900 [Monitor] captured read @addr 46, val=184
+# T=258500 [Driver]  driving read
+# T=259900 [Monitor] captured read @addr 47, val=188
+# T=260500 [Driver]  driving read
+# T=261900 [Monitor] captured read @addr 48, val=192
+# T=262500 [Driver]  driving read
+# T=263900 [Monitor] captured read @addr 49, val=196
+# T=264500 [Driver]  driving read
+# T=265900 [Monitor] captured read @addr 50, val=200
+# T=266500 [Driver]  driving read
+# T=267900 [Monitor] captured read @addr 51, val=204
+# T=268500 [Driver]  driving read
+# T=269900 [Monitor] captured read @addr 52, val=208
+# T=270500 [Driver]  driving read
+# T=271900 [Monitor] captured read @addr 53, val=212
+# T=272500 [Driver]  driving read
+# T=273900 [Monitor] captured read @addr 54, val=216
+# T=274500 [Driver]  driving read
+# T=275900 [Monitor] captured read @addr 55, val=220
+# T=276500 [Driver]  driving read
+# T=277900 [Monitor] captured read @addr 56, val=224
+# T=278500 [Driver]  driving read
+# T=279900 [Monitor] captured read @addr 57, val=228
+# T=280500 [Driver]  driving read
+# T=281900 [Monitor] captured read @addr 58, val=232
+# T=282500 [Driver]  driving read
+# T=283900 [Monitor] captured read @addr 59, val=236
+# T=284500 [Driver]  driving read
+# T=285900 [Monitor] captured read @addr 60, val=240
+# T=286500 [Driver]  driving read
+# T=287900 [Monitor] captured read @addr 61, val=244
+# T=289900 [Monitor] captured read @addr 62, val=248
+# T=290000 [Generator] Loop:1/64 create next item
+# T=290500 [Driver] A={0,0,0,0} B={1,1,1,1}
+# T=291900 [Monitor] captured read @addr 63, val=252
+# T=292000 [Monitor] captured MAC request. Exp Sum=0
+# T=292000 [Generator] Loop:2/64 create next item
+# T=292500 [Driver] A={1,1,1,1} B={1,1,1,1}
+# T=294000 [Monitor] captured MAC request. Exp Sum=4
+# T=294000 [Generator] Loop:3/64 create next item
+# T=294500 [Driver] A={2,2,2,2} B={1,1,1,1}
+# T=296000 [Monitor] captured MAC request. Exp Sum=8
+# T=296000 [Generator] Loop:4/64 create next item
+# T=296500 [Driver] A={3,3,3,3} B={1,1,1,1}
+# T=298000 [Monitor] captured MAC request. Exp Sum=12
+# T=298000 [Generator] Loop:5/64 create next item
+# T=298500 [Driver] A={4,4,4,4} B={1,1,1,1}
+# T=300000 [Monitor] captured MAC request. Exp Sum=16
+# T=300000 [Generator] Loop:6/64 create next item
+# T=300500 [Driver] A={5,5,5,5} B={1,1,1,1}
+# T=301900 [Monitor] captured write @addr 0, val=0
+# T=302000 [Monitor] captured MAC request. Exp Sum=20
+# T=302000 [Generator] Loop:7/64 create next item
+# T=302500 [Driver] A={6,6,6,6} B={1,1,1,1}
+# T=303900 [Monitor] captured write @addr 1, val=4
+# T=304000 [Monitor] captured MAC request. Exp Sum=24
+# T=304000 [Generator] Loop:8/64 create next item
+# T=304500 [Driver] A={7,7,7,7} B={1,1,1,1}
+# T=305900 [Monitor] captured write @addr 2, val=8
+# T=306000 [Monitor] captured MAC request. Exp Sum=28
+# T=306000 [Generator] Loop:9/64 create next item
+# T=306500 [Driver] A={8,8,8,8} B={1,1,1,1}
+# T=307900 [Monitor] captured write @addr 3, val=12
+# T=308000 [Monitor] captured MAC request. Exp Sum=32
+# T=308000 [Generator] Loop:10/64 create next item
+# T=308500 [Driver] A={9,9,9,9} B={1,1,1,1}
+# T=309900 [Monitor] captured write @addr 4, val=16
+# T=310000 [Monitor] captured MAC request. Exp Sum=36
+# T=310000 [Generator] Loop:11/64 create next item
+# T=310500 [Driver] A={10,10,10,10} B={1,1,1,1}
+# T=311900 [Monitor] captured write @addr 5, val=20
+# T=312000 [Monitor] captured MAC request. Exp Sum=40
+# T=312000 [Generator] Loop:12/64 create next item
+# T=312500 [Driver] A={11,11,11,11} B={1,1,1,1}
+# T=313900 [Monitor] captured write @addr 6, val=24
+# T=314000 [Monitor] captured MAC request. Exp Sum=44
+# T=314000 [Generator] Loop:13/64 create next item
+# T=314500 [Driver] A={12,12,12,12} B={1,1,1,1}
+# T=315900 [Monitor] captured write @addr 7, val=28
+# T=316000 [Monitor] captured MAC request. Exp Sum=48
+# T=316000 [Generator] Loop:14/64 create next item
+# T=316500 [Driver] A={13,13,13,13} B={1,1,1,1}
+# T=317900 [Monitor] captured write @addr 8, val=32
+# T=318000 [Monitor] captured MAC request. Exp Sum=52
+# T=318000 [Generator] Loop:15/64 create next item
+# T=318500 [Driver] A={14,14,14,14} B={1,1,1,1}
+# T=319900 [Monitor] captured write @addr 9, val=36
+# T=320000 [Monitor] captured MAC request. Exp Sum=56
+# T=320000 [Generator] Loop:16/64 create next item
+# T=320500 [Driver] A={15,15,15,15} B={1,1,1,1}
+# T=321900 [Monitor] captured write @addr 10, val=40
+# T=322000 [Monitor] captured MAC request. Exp Sum=60
+# T=322000 [Generator] Loop:17/64 create next item
+# T=322500 [Driver] A={16,16,16,16} B={1,1,1,1}
+# T=323900 [Monitor] captured write @addr 11, val=44
+# T=324000 [Monitor] captured MAC request. Exp Sum=64
+# T=324000 [Generator] Loop:18/64 create next item
+# T=324500 [Driver] A={17,17,17,17} B={1,1,1,1}
+# T=325900 [Monitor] captured write @addr 12, val=48
+# T=326000 [Monitor] captured MAC request. Exp Sum=68
+# T=326000 [Generator] Loop:19/64 create next item
+# T=326500 [Driver] A={18,18,18,18} B={1,1,1,1}
+# T=327900 [Monitor] captured write @addr 13, val=52
+# T=328000 [Monitor] captured MAC request. Exp Sum=72
+# T=328000 [Generator] Loop:20/64 create next item
+# T=328500 [Driver] A={19,19,19,19} B={1,1,1,1}
+# T=329900 [Monitor] captured write @addr 14, val=56
+# T=330000 [Monitor] captured MAC request. Exp Sum=76
+# T=330000 [Generator] Loop:21/64 create next item
+# T=330500 [Driver] A={20,20,20,20} B={1,1,1,1}
+# T=331900 [Monitor] captured write @addr 15, val=60
+# T=332000 [Monitor] captured MAC request. Exp Sum=80
+# T=332000 [Generator] Loop:22/64 create next item
+# T=332500 [Driver] A={21,21,21,21} B={1,1,1,1}
+# T=333900 [Monitor] captured write @addr 16, val=64
+# T=334000 [Monitor] captured MAC request. Exp Sum=84
+# T=334000 [Generator] Loop:23/64 create next item
+# T=334500 [Driver] A={22,22,22,22} B={1,1,1,1}
+# T=335900 [Monitor] captured write @addr 17, val=68
+# T=336000 [Monitor] captured MAC request. Exp Sum=88
+# T=336000 [Generator] Loop:24/64 create next item
+# T=336500 [Driver] A={23,23,23,23} B={1,1,1,1}
+# T=337900 [Monitor] captured write @addr 18, val=72
+# T=338000 [Monitor] captured MAC request. Exp Sum=92
+# T=338000 [Generator] Loop:25/64 create next item
+# T=338500 [Driver] A={24,24,24,24} B={1,1,1,1}
+# T=339900 [Monitor] captured write @addr 19, val=76
+# T=340000 [Monitor] captured MAC request. Exp Sum=96
+# T=340000 [Generator] Loop:26/64 create next item
+# T=340500 [Driver] A={25,25,25,25} B={1,1,1,1}
+# T=341900 [Monitor] captured write @addr 20, val=80
+# T=342000 [Monitor] captured MAC request. Exp Sum=100
+# T=342000 [Generator] Loop:27/64 create next item
+# T=342500 [Driver] A={26,26,26,26} B={1,1,1,1}
+# T=343900 [Monitor] captured write @addr 21, val=84
+# T=344000 [Monitor] captured MAC request. Exp Sum=104
+# T=344000 [Generator] Loop:28/64 create next item
+# T=344500 [Driver] A={27,27,27,27} B={1,1,1,1}
+# T=345900 [Monitor] captured write @addr 22, val=88
+# T=346000 [Monitor] captured MAC request. Exp Sum=108
+# T=346000 [Generator] Loop:29/64 create next item
+# T=346500 [Driver] A={28,28,28,28} B={1,1,1,1}
+# T=347900 [Monitor] captured write @addr 23, val=92
+# T=348000 [Monitor] captured MAC request. Exp Sum=112
+# T=348000 [Generator] Loop:30/64 create next item
+# T=348500 [Driver] A={29,29,29,29} B={1,1,1,1}
+# T=349900 [Monitor] captured write @addr 24, val=96
+# T=350000 [Monitor] captured MAC request. Exp Sum=116
+# T=350000 [Generator] Loop:31/64 create next item
+# T=350500 [Driver] A={30,30,30,30} B={1,1,1,1}
+# T=351900 [Monitor] captured write @addr 25, val=100
+# T=352000 [Monitor] captured MAC request. Exp Sum=120
+# T=352000 [Generator] Loop:32/64 create next item
+# T=352500 [Driver] A={31,31,31,31} B={1,1,1,1}
+# T=353900 [Monitor] captured write @addr 26, val=104
+# T=354000 [Monitor] captured MAC request. Exp Sum=124
+# T=354000 [Generator] Loop:33/64 create next item
+# T=354500 [Driver] A={32,32,32,32} B={1,1,1,1}
+# T=355900 [Monitor] captured write @addr 27, val=108
+# T=356000 [Monitor] captured MAC request. Exp Sum=128
+# T=356000 [Generator] Loop:34/64 create next item
+# T=356500 [Driver] A={33,33,33,33} B={1,1,1,1}
+# T=357900 [Monitor] captured write @addr 28, val=112
+# T=358000 [Monitor] captured MAC request. Exp Sum=132
+# T=358000 [Generator] Loop:35/64 create next item
+# T=358500 [Driver] A={34,34,34,34} B={1,1,1,1}
+# T=359900 [Monitor] captured write @addr 29, val=116
+# T=360000 [Monitor] captured MAC request. Exp Sum=136
+# T=360000 [Generator] Loop:36/64 create next item
+# T=360500 [Driver] A={35,35,35,35} B={1,1,1,1}
+# T=361900 [Monitor] captured write @addr 30, val=120
+# T=362000 [Monitor] captured MAC request. Exp Sum=140
+# T=362000 [Generator] Loop:37/64 create next item
+# T=362500 [Driver] A={36,36,36,36} B={1,1,1,1}
+# T=363900 [Monitor] captured write @addr 31, val=124
+# T=364000 [Monitor] captured MAC request. Exp Sum=144
+# T=364000 [Generator] Loop:38/64 create next item
+# T=364500 [Driver] A={37,37,37,37} B={1,1,1,1}
+# T=365900 [Monitor] captured write @addr 32, val=128
+# T=366000 [Monitor] captured MAC request. Exp Sum=148
+# T=366000 [Generator] Loop:39/64 create next item
+# T=366500 [Driver] A={38,38,38,38} B={1,1,1,1}
+# T=367900 [Monitor] captured write @addr 33, val=132
+# T=368000 [Monitor] captured MAC request. Exp Sum=152
+# T=368000 [Generator] Loop:40/64 create next item
+# T=368500 [Driver] A={39,39,39,39} B={1,1,1,1}
+# T=369900 [Monitor] captured write @addr 34, val=136
+# T=370000 [Monitor] captured MAC request. Exp Sum=156
+# T=370000 [Generator] Loop:41/64 create next item
+# T=370500 [Driver] A={40,40,40,40} B={1,1,1,1}
+# T=371900 [Monitor] captured write @addr 35, val=140
+# T=372000 [Monitor] captured MAC request. Exp Sum=160
+# T=372000 [Generator] Loop:42/64 create next item
+# T=372500 [Driver] A={41,41,41,41} B={1,1,1,1}
+# T=373900 [Monitor] captured write @addr 36, val=144
+# T=374000 [Monitor] captured MAC request. Exp Sum=164
+# T=374000 [Generator] Loop:43/64 create next item
+# T=374500 [Driver] A={42,42,42,42} B={1,1,1,1}
+# T=375900 [Monitor] captured write @addr 37, val=148
+# T=376000 [Monitor] captured MAC request. Exp Sum=168
+# T=376000 [Generator] Loop:44/64 create next item
+# T=376500 [Driver] A={43,43,43,43} B={1,1,1,1}
+# T=377900 [Monitor] captured write @addr 38, val=152
+# T=378000 [Monitor] captured MAC request. Exp Sum=172
+# T=378000 [Generator] Loop:45/64 create next item
+# T=378500 [Driver] A={44,44,44,44} B={1,1,1,1}
+# T=379900 [Monitor] captured write @addr 39, val=156
+# T=380000 [Monitor] captured MAC request. Exp Sum=176
+# T=380000 [Generator] Loop:46/64 create next item
+# T=380500 [Driver] A={45,45,45,45} B={1,1,1,1}
+# T=381900 [Monitor] captured write @addr 40, val=160
+# T=382000 [Monitor] captured MAC request. Exp Sum=180
+# T=382000 [Generator] Loop:47/64 create next item
+# T=382500 [Driver] A={46,46,46,46} B={1,1,1,1}
+# T=383900 [Monitor] captured write @addr 41, val=164
+# T=384000 [Monitor] captured MAC request. Exp Sum=184
+# T=384000 [Generator] Loop:48/64 create next item
+# T=384500 [Driver] A={47,47,47,47} B={1,1,1,1}
+# T=385900 [Monitor] captured write @addr 42, val=168
+# T=386000 [Monitor] captured MAC request. Exp Sum=188
+# T=386000 [Generator] Loop:49/64 create next item
+# T=386500 [Driver] A={48,48,48,48} B={1,1,1,1}
+# T=387900 [Monitor] captured write @addr 43, val=172
+# T=388000 [Monitor] captured MAC request. Exp Sum=192
+# T=388000 [Generator] Loop:50/64 create next item
+# T=388500 [Driver] A={49,49,49,49} B={1,1,1,1}
+# T=389900 [Monitor] captured write @addr 44, val=176
+# T=390000 [Monitor] captured MAC request. Exp Sum=196
+# T=390000 [Generator] Loop:51/64 create next item
+# T=390500 [Driver] A={50,50,50,50} B={1,1,1,1}
+# T=391900 [Monitor] captured write @addr 45, val=180
+# T=392000 [Monitor] captured MAC request. Exp Sum=200
+# T=392000 [Generator] Loop:52/64 create next item
+# T=392500 [Driver] A={51,51,51,51} B={1,1,1,1}
+# T=393900 [Monitor] captured write @addr 46, val=184
+# T=394000 [Monitor] captured MAC request. Exp Sum=204
+# T=394000 [Generator] Loop:53/64 create next item
+# T=394500 [Driver] A={52,52,52,52} B={1,1,1,1}
+# T=395900 [Monitor] captured write @addr 47, val=188
+# T=396000 [Monitor] captured MAC request. Exp Sum=208
+# T=396000 [Generator] Loop:54/64 create next item
+# T=396500 [Driver] A={53,53,53,53} B={1,1,1,1}
+# T=397900 [Monitor] captured write @addr 48, val=192
+# T=398000 [Monitor] captured MAC request. Exp Sum=212
+# T=398000 [Generator] Loop:55/64 create next item
+# T=398500 [Driver] A={54,54,54,54} B={1,1,1,1}
+# T=399900 [Monitor] captured write @addr 49, val=196
+# T=400000 [Monitor] captured MAC request. Exp Sum=216
+# T=400000 [Generator] Loop:56/64 create next item
+# T=400500 [Driver] A={55,55,55,55} B={1,1,1,1}
+# T=401900 [Monitor] captured write @addr 50, val=200
+# T=402000 [Monitor] captured MAC request. Exp Sum=220
+# T=402000 [Generator] Loop:57/64 create next item
+# T=402500 [Driver] A={56,56,56,56} B={1,1,1,1}
+# T=403900 [Monitor] captured write @addr 51, val=204
+# T=404000 [Monitor] captured MAC request. Exp Sum=224
+# T=404000 [Generator] Loop:58/64 create next item
+# T=404500 [Driver] A={57,57,57,57} B={1,1,1,1}
+# T=405900 [Monitor] captured write @addr 52, val=208
+# T=406000 [Monitor] captured MAC request. Exp Sum=228
+# T=406000 [Generator] Loop:59/64 create next item
+# T=406500 [Driver] A={58,58,58,58} B={1,1,1,1}
+# T=407900 [Monitor] captured write @addr 53, val=212
+# T=408000 [Monitor] captured MAC request. Exp Sum=232
+# T=408000 [Generator] Loop:60/64 create next item
+# T=408500 [Driver] A={59,59,59,59} B={1,1,1,1}
+# T=409900 [Monitor] captured write @addr 54, val=216
+# T=410000 [Monitor] captured MAC request. Exp Sum=236
+# T=410000 [Generator] Loop:61/64 create next item
+# T=410500 [Driver] A={60,60,60,60} B={1,1,1,1}
+# T=411900 [Monitor] captured write @addr 55, val=220
+# T=412000 [Monitor] captured MAC request. Exp Sum=240
+# T=412000 [Generator] Loop:62/64 create next item
+# T=412500 [Driver] A={61,61,61,61} B={1,1,1,1}
+# T=413900 [Monitor] captured write @addr 56, val=224
+# T=414000 [Monitor] captured MAC request. Exp Sum=244
+# T=414000 [Generator] Loop:63/64 create next item
+# T=414500 [Driver] A={62,62,62,62} B={1,1,1,1}
+# T=415900 [Monitor] captured write @addr 57, val=228
+# T=416000 [Monitor] captured MAC request. Exp Sum=248
+# T=416000 [Generator] Loop:64/64 create next item
+# T=416500 [Driver] A={63,63,63,63} B={1,1,1,1}
+# T=417900 [Monitor] captured write @addr 58, val=232
+# T=418000 [Monitor] captured MAC request. Exp Sum=252
+# T=418000 [Generator] Done generation of 64 items
+# T=419900 [Monitor] captured write @addr 59, val=236
+# T=421900 [Monitor] captured write @addr 60, val=240
+# T=423900 [Monitor] captured write @addr 61, val=244
+# T=425900 [Monitor] captured write @addr 62, val=248
+# T=427900 [Monitor] captured write @addr 63, val=252
+# T=428860 [Generator] Read Begin
+# T=429360 [Driver] starting read
+# ** Error: $setup( negedge D:430300 ps, posedge CK:430410 ps, 130 ps );
+#    Time: 430410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][0][3] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# T=430500 [Driver]  driving read
+# T=432500 [Driver]  driving read
+# T=434500 [Driver]  driving read
+# T=435900 [Monitor] captured read @addr 0, val=0
+# T=436500 [Driver]  driving read
+# T=437900 [Monitor] captured read @addr 1, val=4
+# T=438500 [Driver]  driving read
+# T=439900 [Monitor] captured read @addr 2, val=8
+# T=440500 [Driver]  driving read
+# T=441900 [Monitor] captured read @addr 3, val=12
+# T=442500 [Driver]  driving read
+# T=443900 [Monitor] captured read @addr 4, val=16
+# T=444500 [Driver]  driving read
+# T=445900 [Monitor] captured read @addr 5, val=20
+# T=446500 [Driver]  driving read
+# T=447900 [Monitor] captured read @addr 6, val=24
+# T=448500 [Driver]  driving read
+# T=449900 [Monitor] captured read @addr 7, val=28
+# T=450500 [Driver]  driving read
+# T=451900 [Monitor] captured read @addr 8, val=32
+# T=452500 [Driver]  driving read
+# T=453900 [Monitor] captured read @addr 9, val=36
+# T=454500 [Driver]  driving read
+# T=455900 [Monitor] captured read @addr 10, val=40
+# T=456500 [Driver]  driving read
+# T=457900 [Monitor] captured read @addr 11, val=44
+# T=458500 [Driver]  driving read
+# T=459900 [Monitor] captured read @addr 12, val=48
+# T=460500 [Driver]  driving read
+# T=461900 [Monitor] captured read @addr 13, val=52
+# T=462500 [Driver]  driving read
+# T=463900 [Monitor] captured read @addr 14, val=56
+# T=464500 [Driver]  driving read
+# T=465900 [Monitor] captured read @addr 15, val=60
+# T=466500 [Driver]  driving read
+# T=467900 [Monitor] captured read @addr 16, val=64
+# T=468500 [Driver]  driving read
+# T=469900 [Monitor] captured read @addr 17, val=68
+# T=470500 [Driver]  driving read
+# T=471900 [Monitor] captured read @addr 18, val=72
+# T=472500 [Driver]  driving read
+# T=473900 [Monitor] captured read @addr 19, val=76
+# T=474500 [Driver]  driving read
+# T=475900 [Monitor] captured read @addr 20, val=80
+# T=476500 [Driver]  driving read
+# T=477900 [Monitor] captured read @addr 21, val=84
+# T=478500 [Driver]  driving read
+# T=479900 [Monitor] captured read @addr 22, val=88
+# T=480500 [Driver]  driving read
+# T=481900 [Monitor] captured read @addr 23, val=92
+# T=482500 [Driver]  driving read
+# T=483900 [Monitor] captured read @addr 24, val=96
+# T=484500 [Driver]  driving read
+# T=485900 [Monitor] captured read @addr 25, val=100
+# T=486500 [Driver]  driving read
+# T=487900 [Monitor] captured read @addr 26, val=104
+# T=488500 [Driver]  driving read
+# T=489900 [Monitor] captured read @addr 27, val=108
+# T=490500 [Driver]  driving read
+# T=491900 [Monitor] captured read @addr 28, val=112
+# T=492500 [Driver]  driving read
+# T=493900 [Monitor] captured read @addr 29, val=116
+# T=494500 [Driver]  driving read
+# T=495900 [Monitor] captured read @addr 30, val=120
+# T=496500 [Driver]  driving read
+# T=497900 [Monitor] captured read @addr 31, val=124
+# T=498500 [Driver]  driving read
+# T=499900 [Monitor] captured read @addr 32, val=128
+# T=500500 [Driver]  driving read
+# T=501900 [Monitor] captured read @addr 33, val=132
+# T=502500 [Driver]  driving read
+# T=503900 [Monitor] captured read @addr 34, val=136
+# T=504500 [Driver]  driving read
+# T=505900 [Monitor] captured read @addr 35, val=140
+# T=506500 [Driver]  driving read
+# T=507900 [Monitor] captured read @addr 36, val=144
+# T=508500 [Driver]  driving read
+# T=509900 [Monitor] captured read @addr 37, val=148
+# T=510500 [Driver]  driving read
+# T=511900 [Monitor] captured read @addr 38, val=152
+# T=512500 [Driver]  driving read
+# T=513900 [Monitor] captured read @addr 39, val=156
+# T=514500 [Driver]  driving read
+# T=515900 [Monitor] captured read @addr 40, val=160
+# T=516500 [Driver]  driving read
+# T=517900 [Monitor] captured read @addr 41, val=164
+# T=518500 [Driver]  driving read
+# T=519900 [Monitor] captured read @addr 42, val=168
+# T=520500 [Driver]  driving read
+# T=521900 [Monitor] captured read @addr 43, val=172
+# T=522500 [Driver]  driving read
+# T=523900 [Monitor] captured read @addr 44, val=176
+# T=524500 [Driver]  driving read
+# T=525900 [Monitor] captured read @addr 45, val=180
+# T=526500 [Driver]  driving read
+# T=527900 [Monitor] captured read @addr 46, val=184
+# T=528500 [Driver]  driving read
+# T=529900 [Monitor] captured read @addr 47, val=188
+# T=530500 [Driver]  driving read
+# T=531900 [Monitor] captured read @addr 48, val=192
+# T=532500 [Driver]  driving read
+# T=533900 [Monitor] captured read @addr 49, val=196
+# T=534500 [Driver]  driving read
+# T=535900 [Monitor] captured read @addr 50, val=200
+# T=536500 [Driver]  driving read
+# T=537900 [Monitor] captured read @addr 51, val=204
+# T=538500 [Driver]  driving read
+# T=539900 [Monitor] captured read @addr 52, val=208
+# T=540500 [Driver]  driving read
+# T=541900 [Monitor] captured read @addr 53, val=212
+# T=542500 [Driver]  driving read
+# T=543900 [Monitor] captured read @addr 54, val=216
+# T=544500 [Driver]  driving read
+# T=545900 [Monitor] captured read @addr 55, val=220
+# T=546500 [Driver]  driving read
+# T=547900 [Monitor] captured read @addr 56, val=224
+# T=548500 [Driver]  driving read
+# T=549900 [Monitor] captured read @addr 57, val=228
+# T=550500 [Driver]  driving read
+# T=551900 [Monitor] captured read @addr 58, val=232
+# T=552500 [Driver]  driving read
+# T=553900 [Monitor] captured read @addr 59, val=236
+# T=554500 [Driver]  driving read
+# T=555900 [Monitor] captured read @addr 60, val=240
+# T=556500 [Driver]  driving read
+# T=557900 [Monitor] captured read @addr 61, val=244
+# T=559900 [Monitor] captured read @addr 62, val=248
+# T=560000 [Generator] Started Delayed Simple Test
+# T=561900 [Monitor] captured read @addr 63, val=252
+# T=562000 [Generator] Loop:1/64 create next item
+# T=562500 [Driver] A={0,0,0,0} B={1,1,1,1}
+# T=564000 [Monitor] captured MAC request. Exp Sum=0
+# T=564000 [Generator] Loop:2/64 create next item
+# T=564500 [Driver] A={1,1,1,1} B={1,1,1,1}
+# T=566000 [Monitor] captured MAC request. Exp Sum=4
+# T=566000 [Generator] Loop:3/64 create next item
+# T=566500 [Driver] A={2,2,2,2} B={1,1,1,1}
+# T=568000 [Monitor] captured MAC request. Exp Sum=8
+# T=568000 [Generator] Loop:4/64 create next item
+# T=568500 [Driver] A={3,3,3,3} B={1,1,1,1}
+# T=570000 [Monitor] captured MAC request. Exp Sum=12
+# T=570000 [Generator] Loop:5/64 create next item
+# T=570500 [Driver] A={4,4,4,4} B={1,1,1,1}
+# T=572000 [Monitor] captured MAC request. Exp Sum=16
+# T=572000 [Generator] Loop:6/64 create next item
+# T=572500 [Driver] A={5,5,5,5} B={1,1,1,1}
+# T=573900 [Monitor] captured write @addr 0, val=0
+# T=574000 [Monitor] captured MAC request. Exp Sum=20
+# T=574000 [Generator] Loop:7/64 create next item
+# T=574500 [Driver] A={6,6,6,6} B={1,1,1,1}
+# T=575900 [Monitor] captured write @addr 1, val=4
+# T=576000 [Monitor] captured MAC request. Exp Sum=24
+# T=576000 [Generator] Loop:8/64 create next item
+# T=576500 [Driver] A={7,7,7,7} B={1,1,1,1}
+# T=577900 [Monitor] captured write @addr 2, val=8
+# T=578000 [Monitor] captured MAC request. Exp Sum=28
+# T=578000 [Generator] Loop:9/64 create next item
+# T=578500 [Driver] A={8,8,8,8} B={1,1,1,1}
+# T=579900 [Monitor] captured write @addr 3, val=12
+# T=580000 [Monitor] captured MAC request. Exp Sum=32
+# T=580000 [Generator] Loop:10/64 create next item
+# T=580500 [Driver] A={9,9,9,9} B={1,1,1,1}
+# T=581900 [Monitor] captured write @addr 4, val=16
+# T=582000 [Monitor] captured MAC request. Exp Sum=36
+# T=582000 [Generator] Loop:11/64 create next item
+# T=582500 [Driver] A={10,10,10,10} B={1,1,1,1}
+# T=583900 [Monitor] captured write @addr 5, val=20
+# T=584000 [Monitor] captured MAC request. Exp Sum=40
+# T=584000 [Generator] Loop:12/64 create next item
+# T=584500 [Driver] A={11,11,11,11} B={1,1,1,1}
+# T=585900 [Monitor] captured write @addr 6, val=24
+# T=586000 [Monitor] captured MAC request. Exp Sum=44
+# T=586000 [Generator] Loop:13/64 create next item
+# T=586500 [Driver] A={12,12,12,12} B={1,1,1,1}
+# T=587900 [Monitor] captured write @addr 7, val=28
+# T=588000 [Monitor] captured MAC request. Exp Sum=48
+# T=588000 [Generator] Loop:14/64 create next item
+# T=588500 [Driver] A={13,13,13,13} B={1,1,1,1}
+# T=589900 [Monitor] captured write @addr 8, val=32
+# T=590000 [Monitor] captured MAC request. Exp Sum=52
+# T=590000 [Generator] Loop:15/64 create next item
+# T=590500 [Driver] A={14,14,14,14} B={1,1,1,1}
+# T=591900 [Monitor] captured write @addr 9, val=36
+# T=592000 [Monitor] captured MAC request. Exp Sum=56
+# T=592000 [Generator] Loop:16/64 create next item
+# T=592500 [Driver] A={15,15,15,15} B={1,1,1,1}
+# T=593900 [Monitor] captured write @addr 10, val=40
+# T=594000 [Monitor] captured MAC request. Exp Sum=60
+# T=594000 [Generator] Loop:17/64 create next item
+# T=594500 [Driver] A={16,16,16,16} B={1,1,1,1}
+# T=595900 [Monitor] captured write @addr 11, val=44
+# T=596000 [Monitor] captured MAC request. Exp Sum=64
+# T=596000 [Generator] Loop:18/64 create next item
+# T=596500 [Driver] A={17,17,17,17} B={1,1,1,1}
+# T=597900 [Monitor] captured write @addr 12, val=48
+# T=598000 [Monitor] captured MAC request. Exp Sum=68
+# T=598000 [Generator] Loop:19/64 create next item
+# T=598500 [Driver] A={18,18,18,18} B={1,1,1,1}
+# T=599900 [Monitor] captured write @addr 13, val=52
+# T=600000 [Monitor] captured MAC request. Exp Sum=72
+# T=600000 [Generator] Loop:20/64 create next item
+# T=600500 [Driver] A={19,19,19,19} B={1,1,1,1}
+# T=601900 [Monitor] captured write @addr 14, val=56
+# T=602000 [Monitor] captured MAC request. Exp Sum=76
+# T=602000 [Generator] Loop:21/64 create next item
+# T=602500 [Driver] A={20,20,20,20} B={1,1,1,1}
+# T=603900 [Monitor] captured write @addr 15, val=60
+# T=604000 [Monitor] captured MAC request. Exp Sum=80
+# T=604000 [Generator] Loop:22/64 create next item
+# T=604500 [Driver] A={21,21,21,21} B={1,1,1,1}
+# T=605900 [Monitor] captured write @addr 16, val=64
+# T=606000 [Monitor] captured MAC request. Exp Sum=84
+# T=606000 [Generator] Loop:23/64 create next item
+# T=606500 [Driver] A={22,22,22,22} B={1,1,1,1}
+# T=607900 [Monitor] captured write @addr 17, val=68
+# T=608000 [Monitor] captured MAC request. Exp Sum=88
+# T=608000 [Generator] Loop:24/64 create next item
+# T=608500 [Driver] A={23,23,23,23} B={1,1,1,1}
+# T=609900 [Monitor] captured write @addr 18, val=72
+# T=610000 [Monitor] captured MAC request. Exp Sum=92
+# T=610000 [Generator] Loop:25/64 create next item
+# T=610500 [Driver] A={24,24,24,24} B={1,1,1,1}
+# T=611900 [Monitor] captured write @addr 19, val=76
+# T=612000 [Monitor] captured MAC request. Exp Sum=96
+# T=612000 [Generator] Loop:26/64 create next item
+# T=612500 [Driver] A={25,25,25,25} B={1,1,1,1}
+# T=613900 [Monitor] captured write @addr 20, val=80
+# T=614000 [Monitor] captured MAC request. Exp Sum=100
+# T=614000 [Generator] Loop:27/64 create next item
+# T=614500 [Driver] A={26,26,26,26} B={1,1,1,1}
+# T=615900 [Monitor] captured write @addr 21, val=84
+# T=616000 [Monitor] captured MAC request. Exp Sum=104
+# T=616000 [Generator] Loop:28/64 create next item
+# T=616500 [Driver] A={27,27,27,27} B={1,1,1,1}
+# T=617900 [Monitor] captured write @addr 22, val=88
+# T=618000 [Monitor] captured MAC request. Exp Sum=108
+# T=618000 [Generator] Loop:29/64 create next item
+# T=618500 [Driver] A={28,28,28,28} B={1,1,1,1}
+# T=619900 [Monitor] captured write @addr 23, val=92
+# T=620000 [Monitor] captured MAC request. Exp Sum=112
+# T=620000 [Generator] Loop:30/64 create next item
+# T=620500 [Driver] A={29,29,29,29} B={1,1,1,1}
+# T=621900 [Monitor] captured write @addr 24, val=96
+# T=622000 [Monitor] captured MAC request. Exp Sum=116
+# T=622000 [Generator] Loop:31/64 create next item
+# T=622500 [Driver] A={30,30,30,30} B={1,1,1,1}
+# T=623900 [Monitor] captured write @addr 25, val=100
+# T=624000 [Monitor] captured MAC request. Exp Sum=120
+# T=624000 [Generator] Loop:32/64 create next item
+# T=624500 [Driver] A={31,31,31,31} B={1,1,1,1}
+# T=625900 [Monitor] captured write @addr 26, val=104
+# T=626000 [Monitor] captured MAC request. Exp Sum=124
+# T=626000 [Generator] Loop:33/64 create next item
+# T=626500 [Driver] A={32,32,32,32} B={1,1,1,1}
+# T=627900 [Monitor] captured write @addr 27, val=108
+# T=628000 [Monitor] captured MAC request. Exp Sum=128
+# T=628000 [Generator] Loop:34/64 create next item
+# T=628500 [Driver] A={33,33,33,33} B={1,1,1,1}
+# T=629900 [Monitor] captured write @addr 28, val=112
+# T=630000 [Monitor] captured MAC request. Exp Sum=132
+# T=630000 [Generator] Loop:35/64 create next item
+# T=630500 [Driver] A={34,34,34,34} B={1,1,1,1}
+# T=631900 [Monitor] captured write @addr 29, val=116
+# T=632000 [Monitor] captured MAC request. Exp Sum=136
+# T=632000 [Generator] Loop:36/64 create next item
+# T=632500 [Driver] A={35,35,35,35} B={1,1,1,1}
+# T=633900 [Monitor] captured write @addr 30, val=120
+# T=634000 [Monitor] captured MAC request. Exp Sum=140
+# T=634000 [Generator] Loop:37/64 create next item
+# T=634500 [Driver] A={36,36,36,36} B={1,1,1,1}
+# T=635900 [Monitor] captured write @addr 31, val=124
+# T=636000 [Monitor] captured MAC request. Exp Sum=144
+# T=636000 [Generator] Loop:38/64 create next item
+# T=636500 [Driver] A={37,37,37,37} B={1,1,1,1}
+# T=637900 [Monitor] captured write @addr 32, val=128
+# T=638000 [Monitor] captured MAC request. Exp Sum=148
+# T=638000 [Generator] Loop:39/64 create next item
+# T=638500 [Driver] A={38,38,38,38} B={1,1,1,1}
+# T=639900 [Monitor] captured write @addr 33, val=132
+# T=640000 [Monitor] captured MAC request. Exp Sum=152
+# T=640000 [Generator] Loop:40/64 create next item
+# T=640500 [Driver] A={39,39,39,39} B={1,1,1,1}
+# T=641900 [Monitor] captured write @addr 34, val=136
+# T=642000 [Monitor] captured MAC request. Exp Sum=156
+# T=642000 [Generator] Loop:41/64 create next item
+# T=642500 [Driver] A={40,40,40,40} B={1,1,1,1}
+# T=643900 [Monitor] captured write @addr 35, val=140
+# T=644000 [Monitor] captured MAC request. Exp Sum=160
+# T=644000 [Generator] Loop:42/64 create next item
+# T=644500 [Driver] A={41,41,41,41} B={1,1,1,1}
+# T=645900 [Monitor] captured write @addr 36, val=144
+# T=646000 [Monitor] captured MAC request. Exp Sum=164
+# T=646000 [Generator] Loop:43/64 create next item
+# T=646500 [Driver] A={42,42,42,42} B={1,1,1,1}
+# T=647900 [Monitor] captured write @addr 37, val=148
+# T=648000 [Monitor] captured MAC request. Exp Sum=168
+# T=648000 [Generator] Loop:44/64 create next item
+# T=648500 [Driver] A={43,43,43,43} B={1,1,1,1}
+# T=649900 [Monitor] captured write @addr 38, val=152
+# T=650000 [Monitor] captured MAC request. Exp Sum=172
+# T=650000 [Generator] Loop:45/64 create next item
+# T=650500 [Driver] A={44,44,44,44} B={1,1,1,1}
+# T=651900 [Monitor] captured write @addr 39, val=156
+# T=652000 [Monitor] captured MAC request. Exp Sum=176
+# T=652000 [Generator] Loop:46/64 create next item
+# T=652500 [Driver] A={45,45,45,45} B={1,1,1,1}
+# T=653900 [Monitor] captured write @addr 40, val=160
+# T=654000 [Monitor] captured MAC request. Exp Sum=180
+# T=654000 [Generator] Loop:47/64 create next item
+# T=654500 [Driver] A={46,46,46,46} B={1,1,1,1}
+# T=655900 [Monitor] captured write @addr 41, val=164
+# T=656000 [Monitor] captured MAC request. Exp Sum=184
+# T=656000 [Generator] Loop:48/64 create next item
+# T=656500 [Driver] A={47,47,47,47} B={1,1,1,1}
+# T=657900 [Monitor] captured write @addr 42, val=168
+# T=658000 [Monitor] captured MAC request. Exp Sum=188
+# T=658000 [Generator] Loop:49/64 create next item
+# T=658500 [Driver] A={48,48,48,48} B={1,1,1,1}
+# T=659900 [Monitor] captured write @addr 43, val=172
+# T=660000 [Monitor] captured MAC request. Exp Sum=192
+# T=660000 [Generator] Loop:50/64 create next item
+# T=660500 [Driver] A={49,49,49,49} B={1,1,1,1}
+# T=661900 [Monitor] captured write @addr 44, val=176
+# T=662000 [Monitor] captured MAC request. Exp Sum=196
+# T=662000 [Generator] Loop:51/64 create next item
+# T=662500 [Driver] A={50,50,50,50} B={1,1,1,1}
+# T=663900 [Monitor] captured write @addr 45, val=180
+# T=664000 [Monitor] captured MAC request. Exp Sum=200
+# T=664000 [Generator] Loop:52/64 create next item
+# T=664500 [Driver] A={51,51,51,51} B={1,1,1,1}
+# T=665900 [Monitor] captured write @addr 46, val=184
+# T=666000 [Monitor] captured MAC request. Exp Sum=204
+# T=666000 [Generator] Loop:53/64 create next item
+# T=666500 [Driver] A={52,52,52,52} B={1,1,1,1}
+# T=667900 [Monitor] captured write @addr 47, val=188
+# T=668000 [Monitor] captured MAC request. Exp Sum=208
+# T=668000 [Generator] Loop:54/64 create next item
+# T=668500 [Driver] A={53,53,53,53} B={1,1,1,1}
+# T=669900 [Monitor] captured write @addr 48, val=192
+# T=670000 [Monitor] captured MAC request. Exp Sum=212
+# T=670000 [Generator] Loop:55/64 create next item
+# T=670500 [Driver] A={54,54,54,54} B={1,1,1,1}
+# T=671900 [Monitor] captured write @addr 49, val=196
+# T=672000 [Monitor] captured MAC request. Exp Sum=216
+# T=672000 [Generator] Loop:56/64 create next item
+# T=672500 [Driver] A={55,55,55,55} B={1,1,1,1}
+# T=673900 [Monitor] captured write @addr 50, val=200
+# T=674000 [Monitor] captured MAC request. Exp Sum=220
+# T=674000 [Generator] Loop:57/64 create next item
+# T=674500 [Driver] A={56,56,56,56} B={1,1,1,1}
+# T=675900 [Monitor] captured write @addr 51, val=204
+# T=676000 [Monitor] captured MAC request. Exp Sum=224
+# T=676000 [Generator] Loop:58/64 create next item
+# T=676500 [Driver] A={57,57,57,57} B={1,1,1,1}
+# T=677900 [Monitor] captured write @addr 52, val=208
+# T=678000 [Monitor] captured MAC request. Exp Sum=228
+# T=678000 [Generator] Loop:59/64 create next item
+# T=678500 [Driver] A={58,58,58,58} B={1,1,1,1}
+# T=679900 [Monitor] captured write @addr 53, val=212
+# T=680000 [Monitor] captured MAC request. Exp Sum=232
+# T=680000 [Generator] Loop:60/64 create next item
+# T=680500 [Driver] A={59,59,59,59} B={1,1,1,1}
+# T=681900 [Monitor] captured write @addr 54, val=216
+# T=682000 [Monitor] captured MAC request. Exp Sum=236
+# T=682000 [Generator] Loop:61/64 create next item
+# T=682500 [Driver] A={60,60,60,60} B={1,1,1,1}
+# T=683900 [Monitor] captured write @addr 55, val=220
+# T=684000 [Monitor] captured MAC request. Exp Sum=240
+# T=684000 [Generator] Loop:62/64 create next item
+# T=684500 [Driver] A={61,61,61,61} B={1,1,1,1}
+# T=685900 [Monitor] captured write @addr 56, val=224
+# T=686000 [Monitor] captured MAC request. Exp Sum=244
+# T=686000 [Generator] Loop:63/64 create next item
+# T=686500 [Driver] A={62,62,62,62} B={1,1,1,1}
+# T=687900 [Monitor] captured write @addr 57, val=228
+# T=688000 [Monitor] captured MAC request. Exp Sum=248
+# T=688000 [Generator] Loop:64/64 create next item
+# T=688500 [Driver] A={63,63,63,63} B={1,1,1,1}
+# T=689900 [Monitor] captured write @addr 58, val=232
+# T=690000 [Monitor] captured MAC request. Exp Sum=252
+# T=690000 [Generator] Done generation of 64 items
+# T=691900 [Monitor] captured write @addr 59, val=236
+# T=693900 [Monitor] captured write @addr 60, val=240
+# T=695900 [Monitor] captured write @addr 61, val=244
+# T=697900 [Monitor] captured write @addr 62, val=248
+# T=699900 [Monitor] captured write @addr 63, val=252
+# T=700860 [Generator] Read Begin
+# T=701360 [Driver] starting read
+# ** Error: $setup( negedge D:702300 ps, posedge CK:702410 ps, 130 ps );
+#    Time: 702410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][0][3] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# T=702500 [Driver]  driving read
+# T=704500 [Driver]  driving read
+# T=706500 [Driver]  driving read
+# T=707900 [Monitor] captured read @addr 0, val=0
+# T=708500 [Driver]  driving read
+# T=709900 [Monitor] captured read @addr 1, val=4
+# T=710500 [Driver]  driving read
+# T=711900 [Monitor] captured read @addr 2, val=8
+# T=712500 [Driver]  driving read
+# T=713900 [Monitor] captured read @addr 3, val=12
+# T=714500 [Driver]  driving read
+# T=715900 [Monitor] captured read @addr 4, val=16
+# T=716500 [Driver]  driving read
+# T=717900 [Monitor] captured read @addr 5, val=20
+# T=718500 [Driver]  driving read
+# T=719900 [Monitor] captured read @addr 6, val=24
+# T=720500 [Driver]  driving read
+# T=721900 [Monitor] captured read @addr 7, val=28
+# T=722500 [Driver]  driving read
+# T=723900 [Monitor] captured read @addr 8, val=32
+# T=724500 [Driver]  driving read
+# T=725900 [Monitor] captured read @addr 9, val=36
+# T=726500 [Driver]  driving read
+# T=727900 [Monitor] captured read @addr 10, val=40
+# T=728500 [Driver]  driving read
+# T=729900 [Monitor] captured read @addr 11, val=44
+# T=730500 [Driver]  driving read
+# T=731900 [Monitor] captured read @addr 12, val=48
+# T=732500 [Driver]  driving read
+# T=733900 [Monitor] captured read @addr 13, val=52
+# T=734500 [Driver]  driving read
+# T=735900 [Monitor] captured read @addr 14, val=56
+# T=736500 [Driver]  driving read
+# T=737900 [Monitor] captured read @addr 15, val=60
+# T=738500 [Driver]  driving read
+# T=739900 [Monitor] captured read @addr 16, val=64
+# T=740500 [Driver]  driving read
+# T=741900 [Monitor] captured read @addr 17, val=68
+# T=742500 [Driver]  driving read
+# T=743900 [Monitor] captured read @addr 18, val=72
+# T=744500 [Driver]  driving read
+# T=745900 [Monitor] captured read @addr 19, val=76
+# T=746500 [Driver]  driving read
+# T=747900 [Monitor] captured read @addr 20, val=80
+# T=748500 [Driver]  driving read
+# T=749900 [Monitor] captured read @addr 21, val=84
+# T=750500 [Driver]  driving read
+# T=751900 [Monitor] captured read @addr 22, val=88
+# T=752500 [Driver]  driving read
+# T=753900 [Monitor] captured read @addr 23, val=92
+# T=754500 [Driver]  driving read
+# T=755900 [Monitor] captured read @addr 24, val=96
+# T=756500 [Driver]  driving read
+# T=757900 [Monitor] captured read @addr 25, val=100
+# T=758500 [Driver]  driving read
+# T=759900 [Monitor] captured read @addr 26, val=104
+# T=760500 [Driver]  driving read
+# T=761900 [Monitor] captured read @addr 27, val=108
+# T=762500 [Driver]  driving read
+# T=763900 [Monitor] captured read @addr 28, val=112
+# T=764500 [Driver]  driving read
+# T=765900 [Monitor] captured read @addr 29, val=116
+# T=766500 [Driver]  driving read
+# T=767900 [Monitor] captured read @addr 30, val=120
+# T=768500 [Driver]  driving read
+# T=769900 [Monitor] captured read @addr 31, val=124
+# T=770500 [Driver]  driving read
+# T=771900 [Monitor] captured read @addr 32, val=128
+# T=772500 [Driver]  driving read
+# T=773900 [Monitor] captured read @addr 33, val=132
+# T=774500 [Driver]  driving read
+# T=775900 [Monitor] captured read @addr 34, val=136
+# T=776500 [Driver]  driving read
+# T=777900 [Monitor] captured read @addr 35, val=140
+# T=778500 [Driver]  driving read
+# T=779900 [Monitor] captured read @addr 36, val=144
+# T=780500 [Driver]  driving read
+# T=781900 [Monitor] captured read @addr 37, val=148
+# T=782500 [Driver]  driving read
+# T=783900 [Monitor] captured read @addr 38, val=152
+# T=784500 [Driver]  driving read
+# T=785900 [Monitor] captured read @addr 39, val=156
+# T=786500 [Driver]  driving read
+# T=787900 [Monitor] captured read @addr 40, val=160
+# T=788500 [Driver]  driving read
+# T=789900 [Monitor] captured read @addr 41, val=164
+# T=790500 [Driver]  driving read
+# T=791900 [Monitor] captured read @addr 42, val=168
+# T=792500 [Driver]  driving read
+# T=793900 [Monitor] captured read @addr 43, val=172
+# T=794500 [Driver]  driving read
+# T=795900 [Monitor] captured read @addr 44, val=176
+# T=796500 [Driver]  driving read
+# T=797900 [Monitor] captured read @addr 45, val=180
+# T=798500 [Driver]  driving read
+# T=799900 [Monitor] captured read @addr 46, val=184
+# T=800500 [Driver]  driving read
+# T=801900 [Monitor] captured read @addr 47, val=188
+# T=802500 [Driver]  driving read
+# T=803900 [Monitor] captured read @addr 48, val=192
+# T=804500 [Driver]  driving read
+# T=805900 [Monitor] captured read @addr 49, val=196
+# T=806500 [Driver]  driving read
+# T=807900 [Monitor] captured read @addr 50, val=200
+# T=808500 [Driver]  driving read
+# T=809900 [Monitor] captured read @addr 51, val=204
+# T=810500 [Driver]  driving read
+# T=811900 [Monitor] captured read @addr 52, val=208
+# T=812500 [Driver]  driving read
+# T=813900 [Monitor] captured read @addr 53, val=212
+# T=814500 [Driver]  driving read
+# T=815900 [Monitor] captured read @addr 54, val=216
+# T=816500 [Driver]  driving read
+# T=817900 [Monitor] captured read @addr 55, val=220
+# T=818500 [Driver]  driving read
+# T=819900 [Monitor] captured read @addr 56, val=224
+# T=820500 [Driver]  driving read
+# T=821900 [Monitor] captured read @addr 57, val=228
+# T=822500 [Driver]  driving read
+# T=823900 [Monitor] captured read @addr 58, val=232
+# T=824500 [Driver]  driving read
+# T=825900 [Monitor] captured read @addr 59, val=236
+# T=826500 [Driver]  driving read
+# T=827900 [Monitor] captured read @addr 60, val=240
+# T=828500 [Driver]  driving read
+# T=829900 [Monitor] captured read @addr 61, val=244
+# T=831900 [Monitor] captured read @addr 62, val=248
+# T=832000 [Generator] Started Simple Random Test
+# T=832000 [Generator] Loop:1/64 create next item
+# T=832500 [Driver] A={314,55985,10838,47559} B={63856,34461,63076,54641}
+# T=833900 [Monitor] captured read @addr 63, val=252
+# T=834000 [Monitor] captured MAC request. Exp Sum=5231638876
+# T=834000 [Generator] Loop:2/64 create next item
+# T=834500 [Driver] A={27276,47313,10686,51770} B={32600,25498,58119,63430}
+# T=836000 [Monitor] captured MAC request. Exp Sum=6000415208
+# T=836000 [Generator] Loop:3/64 create next item
+# T=836500 [Driver] A={15641,9095,16973,47052} B={27162,20360,55359,29006}
+# T=838000 [Monitor] captured MAC request. Exp Sum=2914413661
+# T=838000 [Generator] Loop:4/64 create next item
+# T=838500 [Driver] A={46760,8721,4275,3452} B={33298,43250,50677,33528}
+# T=840000 [Monitor] captured MAC request. Exp Sum=2266580561
+# T=840000 [Generator] Loop:5/64 create next item
+# T=840500 [Driver] A={41158,40587,18318,6422} B={24367,3713,17540,28080}
+# T=842000 [Monitor] captured MAC request. Exp Sum=1655223997
+# T=842000 [Generator] Loop:6/64 create next item
+# T=842500 [Driver] A={62129,63471,52305,33903} B={61802,13001,43931,4672}
+# T=843900 [Monitor] captured write @addr 0, val=5231638876
+# T=844000 [Monitor] captured MAC request. Exp Sum=7121088700
+# T=844000 [Generator] Loop:7/64 create next item
+# T=844500 [Driver] A={28838,20861,5848,50587} B={60189,11826,63658,49558}
+# T=845900 [Monitor] captured write @addr 1, val=6000415208
+# T=846000 [Monitor] captured MAC request. Exp Sum=4861695098
+# T=846000 [Generator] Loop:8/64 create next item
+# T=846500 [Driver] A={41142,55670,1616,14890} B={52811,55207,16742,44645}
+# T=847900 [Monitor] captured write @addr 2, val=2914413661
+# T=848000 [Monitor] captured MAC request. Exp Sum=5937942974
+# T=848000 [Generator] Loop:9/64 create next item
+# T=848500 [Driver] A={1149,56851,21870,42596} B={61397,42583,60518,22712}
+# T=849900 [Monitor] captured write @addr 3, val=2266580561
+# T=850000 [Monitor] captured MAC request. Exp Sum=4782400298
+# T=850000 [Generator] Loop:10/64 create next item
+# T=850500 [Driver] A={58189,49056,65155,35182} B={15698,36479,32313,41954}
+# T=851900 [Monitor] captured write @addr 4, val=1655223997
+# T=852000 [Monitor] captured MAC request. Exp Sum=6284343889
+# T=852000 [Generator] Loop:11/64 create next item
+# T=852500 [Driver] A={13381,9394,6591,682} B={21748,31360,7830,29938}
+# T=853900 [Monitor] captured write @addr 5, val=7121088700
+# T=854000 [Monitor] captured MAC request. Exp Sum=657631074
+# T=854000 [Generator] Loop:12/64 create next item
+# T=854500 [Driver] A={55204,55890,64840,59070} B={13101,35704,44940,35568}
+# T=855900 [Monitor] captured write @addr 6, val=4861695098
+# T=856000 [Monitor] captured MAC request. Exp Sum=7733635524
+# T=856000 [Generator] Loop:13/64 create next item
+# T=856500 [Driver] A={45536,64242,36926,44281} B={61715,53281,5505,17744}
+# T=857900 [Monitor] captured write @addr 7, val=5937942974
+# T=858000 [Monitor] captured MAC request. Exp Sum=7222131936
+# T=858000 [Generator] Loop:14/64 create next item
+# T=858500 [Driver] A={16520,58532,10343,37814} B={7763,43838,16487,46901}
+# T=859900 [Monitor] captured write @addr 8, val=4782400298
+# T=860000 [Monitor] captured MAC request. Exp Sum=4638210031
+# T=860000 [Generator] Loop:15/64 create next item
+# T=860500 [Driver] A={32593,63000,51785,57619} B={42649,1863,3759,46499}
+# T=861900 [Monitor] captured write @addr 9, val=6284343889
+# T=862000 [Monitor] captured MAC request. Exp Sum=4381313553
+# T=862000 [Generator] Loop:16/64 create next item
+# T=862500 [Driver] A={14028,16539,54610,57440} B={32798,54977,1427,46035}
+# T=863900 [Monitor] captured write @addr 10, val=657631074
+# T=864000 [Monitor] captured MAC request. Exp Sum=4091533817
+# T=864000 [Generator] Loop:17/64 create next item
+# T=864500 [Driver] A={16222,21045,33368,41929} B={47362,47514,5587,12449}
+# T=865900 [Monitor] captured write @addr 11, val=7733635524
+# T=866000 [Monitor] captured MAC request. Exp Sum=2476639631
+# T=866000 [Generator] Loop:18/64 create next item
+# T=866500 [Driver] A={51429,64588,16663,39940} B={23903,13882,6110,5803}
+# T=867900 [Monitor] captured write @addr 12, val=7222131936
+# T=868000 [Monitor] captured MAC request. Exp Sum=2459500753
+# T=868000 [Generator] Loop:19/64 create next item
+# T=868500 [Driver] A={40245,26161,10986,24083} B={15150,26079,39409,27175}
+# T=869900 [Monitor] captured write @addr 13, val=4638210031
+# T=870000 [Monitor] captured MAC request. Exp Sum=2379367268
+# T=870000 [Generator] Loop:20/64 create next item
+# T=870500 [Driver] A={47799,48120,64270,31859} B={29530,56234,23963,32781}
+# T=871900 [Monitor] captured write @addr 14, val=4381313553
+# T=872000 [Monitor] captured MAC request. Exp Sum=6701956439
+# T=872000 [Generator] Loop:21/64 create next item
+# T=872500 [Driver] A={34790,19602,22002,15342} B={30170,34575,53032,39776}
+# T=873900 [Monitor] captured write @addr 15, val=4091533817
+# T=874000 [Monitor] captured MAC request. Exp Sum=3504406906
+# T=874000 [Generator] Loop:22/64 create next item
+# T=874500 [Driver] A={64986,43878,9205,62017} B={2556,30129,37546,60862}
+# T=875900 [Monitor] captured write @addr 16, val=2476639631
+# T=876000 [Monitor] captured MAC request. Exp Sum=5608194062
+# T=876000 [Generator] Loop:23/64 create next item
+# T=876500 [Driver] A={54437,42081,21414,38400} B={17952,12023,11081,51364}
+# T=877900 [Monitor] captured write @addr 17, val=2459500753
+# T=878000 [Monitor] captured MAC request. Exp Sum=3692859021
+# T=878000 [Generator] Loop:24/64 create next item
+# T=878500 [Driver] A={51914,61994,30924,5027} B={6250,9290,64977,63041}
+# T=879900 [Monitor] captured write @addr 18, val=2379367268
+# T=880000 [Monitor] captured MAC request. Exp Sum=3226642615
+# T=880000 [Generator] Loop:25/64 create next item
+# T=880500 [Driver] A={54443,14159,1134,18595} B={10658,11050,8342,24475}
+# T=881900 [Monitor] captured write @addr 19, val=6701956439
+# T=882000 [Monitor] captured MAC request. Exp Sum=1201282897
+# T=882000 [Generator] Loop:26/64 create next item
+# T=882500 [Driver] A={43907,8074,64170,20041} B={9313,10566,40694,59320}
+# T=883900 [Monitor] captured write @addr 20, val=3504406906
+# T=884000 [Monitor] captured MAC request. Exp Sum=4294381875
+# T=884000 [Generator] Loop:27/64 create next item
+# T=884500 [Driver] A={18972,55017,64148,32187} B={53047,10025,38136,3543}
+# T=885900 [Monitor] captured write @addr 21, val=5608194062
+# T=886000 [Monitor] captured MAC request. Exp Sum=4118339778
+# T=886000 [Generator] Loop:28/64 create next item
+# T=886500 [Driver] A={45688,28413,14526,65433} B={33095,36627,26230,35676}
+# T=887900 [Monitor] captured write @addr 22, val=3692859021
+# T=888000 [Monitor] captured MAC request. Exp Sum=5268131999
+# T=888000 [Generator] Loop:29/64 create next item
+# T=888500 [Driver] A={59765,10532,49598,58592} B={28424,390,25116,11447}
+# T=889900 [Monitor] captured write @addr 23, val=3226642615
+# T=890000 [Monitor] captured MAC request. Exp Sum=3619273832
+# T=890000 [Generator] Loop:30/64 create next item
+# T=890500 [Driver] A={1006,30151,53933,2686} B={24471,188,22765,32286}
+# T=891900 [Monitor] captured write @addr 24, val=1201282897
+# T=892000 [Monitor] captured MAC request. Exp Sum=1344791155
+# T=892000 [Generator] Loop:31/64 create next item
+# T=892500 [Driver] A={25262,9362,8687,3308} B={3359,49209,18658,7863}
+# T=893900 [Monitor] captured write @addr 25, val=4294381875
+# T=894000 [Monitor] captured MAC request. Exp Sum=733642566
+# T=894000 [Generator] Loop:32/64 create next item
+# T=894500 [Driver] A={61148,25859,19877,62355} B={64638,46708,24371,55226}
+# T=895900 [Monitor] captured write @addr 26, val=4118339778
+# T=896000 [Monitor] captured MAC request. Exp Sum=9088346193
+# T=896000 [Generator] Loop:33/64 create next item
+# T=896500 [Driver] A={1731,12129,26769,34909} B={23744,11683,40490,62565}
+# T=897900 [Monitor] captured write @addr 27, val=5268131999
+# T=898000 [Monitor] captured MAC request. Exp Sum=3450762366
+# T=898000 [Generator] Loop:34/64 create next item
+# T=898500 [Driver] A={32639,36355,40696,45523} B={4611,63513,550,41900}
+# T=899900 [Monitor] captured write @addr 28, val=3619273832
+# T=900000 [Monitor] captured MAC request. Exp Sum=4389310044
+# T=900000 [Generator] Loop:35/64 create next item
+# T=900500 [Driver] A={34394,27058,19134,38584} B={33052,55534,6320,62071}
+# T=901900 [Monitor] captured write @addr 29, val=1344791155
+# T=902000 [Monitor] captured MAC request. Exp Sum=5155303804
+# T=902000 [Generator] Loop:36/64 create next item
+# T=902500 [Driver] A={37732,30323,10963,18044} B={56354,22302,26159,56006}
+# T=903900 [Monitor] captured write @addr 30, val=733642566
+# T=904000 [Monitor] captured MAC request. Exp Sum=4099966055
+# T=904000 [Generator] Loop:37/64 create next item
+# T=904500 [Driver] A={8438,21889,28280,54238} B={53896,8708,59828,28569}
+# T=905900 [Monitor] captured write @addr 31, val=9088346193
+# T=906000 [Monitor] captured MAC request. Exp Sum=3886845122
+# T=906000 [Generator] Loop:38/64 create next item
+# T=906500 [Driver] A={16833,45260,45391,10482} B={13801,27083,45172,10174}
+# T=907900 [Monitor] captured write @addr 32, val=3450762366
+# T=908000 [Monitor] captured MAC request. Exp Sum=3615134933
+# T=908000 [Generator] Loop:39/64 create next item
+# T=908500 [Driver] A={53860,62784,7068,4302} B={27623,53378,15191,27187}
+# T=909900 [Monitor] captured write @addr 33, val=4389310044
+# T=910000 [Monitor] captured MAC request. Exp Sum=5063387594
+# T=910000 [Generator] Loop:40/64 create next item
+# T=910500 [Driver] A={58587,9851,56127,41614} B={51432,46038,60930,13979}
+# T=911900 [Monitor] captured write @addr 34, val=5155303804
+# T=912000 [Monitor] captured MAC request. Exp Sum=7468307138
+# T=912000 [Generator] Loop:41/64 create next item
+# T=912500 [Driver] A={35913,54946,64644,48436} B={63406,41177,2151,28915}
+# T=913900 [Monitor] captured write @addr 35, val=4099966055
+# T=914000 [Monitor] captured MAC request. Exp Sum=6079187304
+# T=914000 [Generator] Loop:42/64 create next item
+# T=914500 [Driver] A={22658,65407,43722,25952} B={305,40576,34944,47591}
+# T=915900 [Monitor] captured write @addr 36, val=3886845122
+# T=916000 [Monitor] captured MAC request. Exp Sum=5423768322
+# T=916000 [Generator] Loop:43/64 create next item
+# T=916500 [Driver] A={63330,32195,22652,55067} B={15032,16638,37356,49778}
+# T=917900 [Monitor] captured write @addr 37, val=3615134933
+# T=918000 [Monitor] captured MAC request. Exp Sum=5074950208
+# T=918000 [Generator] Loop:44/64 create next item
+# T=918500 [Driver] A={58815,8288,52930,22465} B={62342,40077,36543,37682}
+# T=919900 [Monitor] captured write @addr 38, val=5063387594
+# T=920000 [Monitor] captured MAC request. Exp Sum=6779550026
+# T=920000 [Generator] Loop:45/64 create next item
+# T=920500 [Driver] A={57113,384,8265,61111} B={28297,48889,57270,34014}
+# T=921900 [Monitor] captured write @addr 39, val=7468307138
+# T=922000 [Monitor] captured MAC request. Exp Sum=4186866041
+# T=922000 [Generator] Loop:46/64 create next item
+# T=922500 [Driver] A={63308,56317,8477,63330} B={41631,10887,25733,6465}
+# T=923900 [Monitor] captured write @addr 40, val=6079187304
+# T=924000 [Monitor] captured MAC request. Exp Sum=3876265618
+# T=924000 [Generator] Loop:47/64 create next item
+# T=924500 [Driver] A={43180,42349,1058,60587} B={40173,30114,23593,6123}
+# T=925900 [Monitor] captured write @addr 41, val=5423768322
+# T=926000 [Monitor] captured MAC request. Exp Sum=3405903521
+# T=926000 [Generator] Loop:48/64 create next item
+# T=926500 [Driver] A={45348,61037,6214,45910} B={43049,51992,25262,40451}
+# T=927900 [Monitor] captured write @addr 42, val=5074950208
+# T=928000 [Monitor] captured MAC request. Exp Sum=7139705234
+# T=928000 [Generator] Loop:49/64 create next item
+# T=928500 [Driver] A={14495,57838,54635,49676} B={18275,22685,56161,26619}
+# T=929900 [Monitor] captured write @addr 43, val=6779550026
+# T=930000 [Monitor] captured MAC request. Exp Sum=5967632834
+# T=930000 [Generator] Loop:50/64 create next item
+# T=930500 [Driver] A={24530,601,15943,11457} B={65379,27409,41027,51805}
+# T=931900 [Monitor] captured write @addr 44, val=4186866041
+# T=932000 [Monitor] captured MAC request. Exp Sum=2867843025
+# T=932000 [Generator] Loop:51/64 create next item
+# T=932500 [Driver] A={42548,36677,22713,24166} B={13385,62580,30365,10440}
+# T=933900 [Monitor] captured write @addr 45, val=3876265618
+# T=934000 [Monitor] captured MAC request. Exp Sum=3806724925
+# T=934000 [Generator] Loop:52/64 create next item
+# T=934500 [Driver] A={9266,6629,54851,48161} B={64324,39622,63540,13449}
+# T=935900 [Monitor] captured write @addr 46, val=3405903521
+# T=936000 [Monitor] captured MAC request. Exp Sum=4991630251
+# T=936000 [Generator] Loop:53/64 create next item
+# T=936500 [Driver] A={1160,40645,62633,45476} B={39706,60459,18542,48266}
+# T=937900 [Monitor] captured write @addr 47, val=7139705234
+# T=938000 [Monitor] captured MAC request. Exp Sum=5859700717
+# T=938000 [Generator] Loop:54/64 create next item
+# T=938500 [Driver] A={43987,20243,64088,992} B={2798,5564,40762,43704}
+# T=939900 [Monitor] captured write @addr 48, val=5967632834
+# T=940000 [Monitor] captured MAC request. Exp Sum=2891417102
+# T=940000 [Generator] Loop:55/64 create next item
+# T=940500 [Driver] A={741,48388,27069,30381} B={55844,13097,55588,42706}
+# T=941900 [Monitor] captured write @addr 49, val=2867843025
+# T=942000 [Monitor] captured MAC request. Exp Sum=3477280598
+# T=942000 [Generator] Loop:56/64 create next item
+# T=942500 [Driver] A={58850,39255,13472,19471} B={22644,31288,21978,41173}
+# T=943900 [Monitor] captured write @addr 50, val=3806724925
+# T=944000 [Monitor] captured MAC request. Exp Sum=3658576939
+# T=944000 [Generator] Loop:57/64 create next item
+# T=944500 [Driver] A={47200,12178,58419,417} B={37304,50074,8765,54704}
+# T=945900 [Monitor] captured write @addr 51, val=4991630251
+# T=946000 [Monitor] captured MAC request. Exp Sum=2905404075
+# T=946000 [Generator] Loop:58/64 create next item
+# T=946500 [Driver] A={50895,26938,25491,49224} B={45173,44403,56878,38386}
+# T=947900 [Monitor] captured write @addr 52, val=5859700717
+# T=948000 [Monitor] captured MAC request. Exp Sum=6834597411
+# T=948000 [Generator] Loop:59/64 create next item
+# T=948500 [Driver] A={58008,58285,56684,62222} B={28603,46590,27764,60846}
+# T=949900 [Monitor] captured write @addr 53, val=2891417102
+# T=950000 [Monitor] captured MAC request. Exp Sum=9734435362
+# T=950000 [Generator] Loop:60/64 create next item
+# T=950500 [Driver] A={53681,60523,41587,38114} B={18985,23506,50615,1573}
+# T=951900 [Monitor] captured write @addr 54, val=3477280598
+# T=952000 [Monitor] captured MAC request. Exp Sum=4606666750
+# T=952000 [Generator] Loop:61/64 create next item
+# T=952500 [Driver] A={28958,19759,14800,33218} B={38085,42967,28636,28715}
+# T=953900 [Monitor] captured write @addr 55, val=3658576939
+# T=954000 [Monitor] captured MAC request. Exp Sum=3329518053
+# T=954000 [Generator] Loop:62/64 create next item
+# T=954500 [Driver] A={31553,29227,55004,43056} B={65344,61523,21300,11519}
+# T=955900 [Monitor] captured write @addr 56, val=2905404075
+# T=956000 [Monitor] captured MAC request. Exp Sum=5527479217
+# T=956000 [Generator] Loop:63/64 create next item
+# T=956500 [Driver] A={58537,32367,48499,20973} B={20490,9736,8080,17755}
+# T=957900 [Monitor] captured write @addr 57, val=6834597411
+# T=958000 [Monitor] captured MAC request. Exp Sum=2278795777
+# T=958000 [Generator] Loop:64/64 create next item
+# T=958500 [Driver] A={58410,21104,63463,24454} B={48089,49583,32510,46495}
+# T=959900 [Monitor] captured write @addr 58, val=9734435362
+# T=960000 [Monitor] captured MAC request. Exp Sum=7055448982
+# T=960000 [Generator] Done generation of 64 items
+# T=961900 [Monitor] captured write @addr 59, val=4606666750
+# T=963900 [Monitor] captured write @addr 60, val=3329518053
+# T=965900 [Monitor] captured write @addr 61, val=5527479217
+# T=967900 [Monitor] captured write @addr 62, val=2278795777
+# T=969900 [Monitor] captured write @addr 63, val=7055448982
+# T=970860 [Generator] Read Begin
+# T=971360 [Driver] starting read
+# ** Error: $setup( negedge D:972250 ps, posedge CK:972370 ps, 130 ps );
+#    Time: 972370 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][7][3] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972310 ps, posedge CK:972390 ps, 130 ps );
+#    Time: 972390 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][3][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972310 ps, posedge CK:972400 ps, 130 ps );
+#    Time: 972400 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][14][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972360 ps, posedge CK:972400 ps, 120 ps );
+#    Time: 972400 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][7][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972300 ps, posedge CK:972410 ps, 130 ps );
+#    Time: 972410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][0][3] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972350 ps, posedge CK:972410 ps, 110 ps );
+#    Time: 972410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][10][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972310 ps, posedge CK:972410 ps, 120 ps );
+#    Time: 972410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][10][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972310 ps, posedge CK:972410 ps, 140 ps );
+#    Time: 972410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][9][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972350 ps, posedge CK:972410 ps, 140 ps );
+#    Time: 972410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][8][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972340 ps, posedge CK:972410 ps, 140 ps );
+#    Time: 972410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][2][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $hold( posedge CK:972400 ps, negedge D:972410 ps, 20 ps );
+#    Time: 972410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][15][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972310 ps, posedge CK:972420 ps, 120 ps );
+#    Time: 972420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][2][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972330 ps, posedge CK:972420 ps, 150 ps );
+#    Time: 972420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][8][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972410 ps, posedge CK:972420 ps, 140 ps );
+#    Time: 972420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][5][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972360 ps, posedge CK:972420 ps, 130 ps );
+#    Time: 972420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][4][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972370 ps, posedge CK:972420 ps, 120 ps );
+#    Time: 972420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][14][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972350 ps, posedge CK:972420 ps, 120 ps );
+#    Time: 972420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][13][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972390 ps, posedge CK:972420 ps, 140 ps );
+#    Time: 972420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][1][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972340 ps, posedge CK:972420 ps, 130 ps );
+#    Time: 972420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][10][5] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972380 ps, posedge CK:972420 ps, 120 ps );
+#    Time: 972420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][9][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972360 ps, posedge CK:972430 ps, 120 ps );
+#    Time: 972430 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][1][5] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972350 ps, posedge CK:972430 ps, 140 ps );
+#    Time: 972430 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][0][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972380 ps, posedge CK:972430 ps, 130 ps );
+#    Time: 972430 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][8][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972340 ps, posedge CK:972440 ps, 130 ps );
+#    Time: 972440 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][7][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972340 ps, posedge CK:972440 ps, 130 ps );
+#    Time: 972440 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][13][5] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972380 ps, posedge CK:972440 ps, 120 ps );
+#    Time: 972440 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][11][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972340 ps, posedge CK:972440 ps, 130 ps );
+#    Time: 972440 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][1][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972330 ps, posedge CK:972440 ps, 130 ps );
+#    Time: 972440 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][0][3] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972370 ps, posedge CK:972440 ps, 140 ps );
+#    Time: 972440 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][11][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $hold( posedge CK:972430 ps, negedge D:972440 ps, 20 ps );
+#    Time: 972440 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][13][5] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972330 ps, posedge CK:972450 ps, 140 ps );
+#    Time: 972450 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][12][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:972350 ps, posedge CK:972450 ps, 120 ps );
+#    Time: 972450 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][9][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $hold( posedge CK:972440 ps, negedge D:972450 ps, 20 ps );
+#    Time: 972450 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][15][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:972420 ps, posedge CK:972460 ps, 130 ps );
+#    Time: 972460 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][5][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# T=972500 [Driver]  driving read
+# T=974500 [Driver]  driving read
+# T=976500 [Driver]  driving read
+# T=977900 [Monitor] captured read @addr 0, val=5231638876
+# T=978500 [Driver]  driving read
+# T=979900 [Monitor] captured read @addr 1, val=6000415208
+# T=980500 [Driver]  driving read
+# T=981900 [Monitor] captured read @addr 2, val=2914413661
+# T=982500 [Driver]  driving read
+# T=983900 [Monitor] captured read @addr 3, val=2266580561
+# T=984500 [Driver]  driving read
+# T=985900 [Monitor] captured read @addr 4, val=1655223997
+# T=986500 [Driver]  driving read
+# T=987900 [Monitor] captured read @addr 5, val=7121088700
+# T=988500 [Driver]  driving read
+# T=989900 [Monitor] captured read @addr 6, val=4861695098
+# T=990500 [Driver]  driving read
+# T=991900 [Monitor] captured read @addr 7, val=5937942974
+# T=992500 [Driver]  driving read
+# T=993900 [Monitor] captured read @addr 8, val=4782400298
+# T=994500 [Driver]  driving read
+# T=995900 [Monitor] captured read @addr 9, val=6284343889
+# T=996500 [Driver]  driving read
+# T=997900 [Monitor] captured read @addr 10, val=657631074
+# T=998500 [Driver]  driving read
+# T=999900 [Monitor] captured read @addr 11, val=7733635524
+# T=1000500 [Driver]  driving read
+# T=1001900 [Monitor] captured read @addr 12, val=7222131936
+# T=1002500 [Driver]  driving read
+# T=1003900 [Monitor] captured read @addr 13, val=4638210031
+# T=1004500 [Driver]  driving read
+# T=1005900 [Monitor] captured read @addr 14, val=4381313553
+# T=1006500 [Driver]  driving read
+# T=1007900 [Monitor] captured read @addr 15, val=4091533817
+# T=1008500 [Driver]  driving read
+# T=1009900 [Monitor] captured read @addr 16, val=2476639631
+# T=1010500 [Driver]  driving read
+# T=1011900 [Monitor] captured read @addr 17, val=2459500753
+# T=1012500 [Driver]  driving read
+# T=1013900 [Monitor] captured read @addr 18, val=2379367268
+# T=1014500 [Driver]  driving read
+# T=1015900 [Monitor] captured read @addr 19, val=6701956439
+# T=1016500 [Driver]  driving read
+# T=1017900 [Monitor] captured read @addr 20, val=3504406906
+# T=1018500 [Driver]  driving read
+# T=1019900 [Monitor] captured read @addr 21, val=5608194062
+# T=1020500 [Driver]  driving read
+# T=1021900 [Monitor] captured read @addr 22, val=3692859021
+# T=1022500 [Driver]  driving read
+# T=1023900 [Monitor] captured read @addr 23, val=3226642615
+# T=1024500 [Driver]  driving read
+# T=1025900 [Monitor] captured read @addr 24, val=1201282897
+# T=1026500 [Driver]  driving read
+# T=1027900 [Monitor] captured read @addr 25, val=4294381875
+# T=1028500 [Driver]  driving read
+# T=1029900 [Monitor] captured read @addr 26, val=4118339778
+# T=1030500 [Driver]  driving read
+# T=1031900 [Monitor] captured read @addr 27, val=5268131999
+# T=1032500 [Driver]  driving read
+# T=1033900 [Monitor] captured read @addr 28, val=3619273832
+# T=1034500 [Driver]  driving read
+# T=1035900 [Monitor] captured read @addr 29, val=1344791155
+# T=1036500 [Driver]  driving read
+# T=1037900 [Monitor] captured read @addr 30, val=733642566
+# T=1038500 [Driver]  driving read
+# T=1039900 [Monitor] captured read @addr 31, val=9088346193
+# T=1040500 [Driver]  driving read
+# T=1041900 [Monitor] captured read @addr 32, val=3450762366
+# T=1042500 [Driver]  driving read
+# T=1043900 [Monitor] captured read @addr 33, val=4389310044
+# T=1044500 [Driver]  driving read
+# T=1045900 [Monitor] captured read @addr 34, val=5155303804
+# T=1046500 [Driver]  driving read
+# T=1047900 [Monitor] captured read @addr 35, val=4099966055
+# T=1048500 [Driver]  driving read
+# T=1049900 [Monitor] captured read @addr 36, val=3886845122
+# T=1050500 [Driver]  driving read
+# T=1051900 [Monitor] captured read @addr 37, val=3615134933
+# T=1052500 [Driver]  driving read
+# T=1053900 [Monitor] captured read @addr 38, val=5063387594
+# T=1054500 [Driver]  driving read
+# T=1055900 [Monitor] captured read @addr 39, val=7468307138
+# T=1056500 [Driver]  driving read
+# T=1057900 [Monitor] captured read @addr 40, val=6079187304
+# T=1058500 [Driver]  driving read
+# T=1059900 [Monitor] captured read @addr 41, val=5423768322
+# T=1060500 [Driver]  driving read
+# T=1061900 [Monitor] captured read @addr 42, val=5074950208
+# T=1062500 [Driver]  driving read
+# T=1063900 [Monitor] captured read @addr 43, val=6779550026
+# T=1064500 [Driver]  driving read
+# T=1065900 [Monitor] captured read @addr 44, val=4186866041
+# T=1066500 [Driver]  driving read
+# T=1067900 [Monitor] captured read @addr 45, val=3876265618
+# T=1068500 [Driver]  driving read
+# T=1069900 [Monitor] captured read @addr 46, val=3405903521
+# T=1070500 [Driver]  driving read
+# T=1071900 [Monitor] captured read @addr 47, val=7139705234
+# T=1072500 [Driver]  driving read
+# T=1073900 [Monitor] captured read @addr 48, val=5967632834
+# T=1074500 [Driver]  driving read
+# T=1075900 [Monitor] captured read @addr 49, val=2867843025
+# T=1076500 [Driver]  driving read
+# T=1077900 [Monitor] captured read @addr 50, val=3806724925
+# T=1078500 [Driver]  driving read
+# T=1079900 [Monitor] captured read @addr 51, val=4991630251
+# T=1080500 [Driver]  driving read
+# T=1081900 [Monitor] captured read @addr 52, val=5859700717
+# T=1082500 [Driver]  driving read
+# T=1083900 [Monitor] captured read @addr 53, val=2891417102
+# T=1084500 [Driver]  driving read
+# T=1085900 [Monitor] captured read @addr 54, val=3477280598
+# T=1086500 [Driver]  driving read
+# T=1087900 [Monitor] captured read @addr 55, val=3658576939
+# T=1088500 [Driver]  driving read
+# T=1089900 [Monitor] captured read @addr 56, val=2905404075
+# T=1090500 [Driver]  driving read
+# T=1091900 [Monitor] captured read @addr 57, val=6834597411
+# T=1092500 [Driver]  driving read
+# T=1093900 [Monitor] captured read @addr 58, val=9734435362
+# T=1094500 [Driver]  driving read
+# T=1095900 [Monitor] captured read @addr 59, val=4606666750
+# T=1096500 [Driver]  driving read
+# T=1097900 [Monitor] captured read @addr 60, val=3329518053
+# T=1098500 [Driver]  driving read
+# T=1099900 [Monitor] captured read @addr 61, val=5527479217
+# T=1101900 [Monitor] captured read @addr 62, val=2278795777
+# T=1102000 [Generator] Started CRV Test
+# T=1102000 [Generator] Loop:1/64 create next item
+# T=1102500 [Driver] A={11589,28365,35601,1733} B={10462,707,8231,63488}
+# T=1103900 [Monitor] captured read @addr 63, val=7055448982
+# T=1104000 [Generator] Loop:2/64 created no write
+# T=1104500 [Driver] A={25198,48374,17227,58066} B={33296,14502,12298,65345}
+# T=1106000 [Monitor] captured MAC request. Exp Sum=5546692772
+# T=1106000 [Generator] Loop:2/64 create next item
+# T=1106500 [Driver] A={54289,64843,64784,19888} B={41425,26132,9309,40819}
+# T=1108000 [Monitor] captured MAC request. Exp Sum=5358281629
+# T=1108000 [Generator] Loop:3/64 create next item
+# T=1108500 [Driver] A={28810,63964,60277,17731} B={33514,23694,32926,27170}
+# T=1110000 [Generator] Loop:4/64 created no write
+# T=1110500 [Driver] A={41495,1997,15420,47541} B={575,4342,38091,17010}
+# T=1112000 [Generator] Loop:4/64 created no write
+# T=1112500 [Driver] A={11531,25009,21900,26518} B={19523,47449,9703,36201}
+# T=1114000 [Monitor] captured MAC request. Exp Sum=2584245572
+# T=1114000 [Generator] Loop:4/64 create next item
+# T=1114500 [Driver] A={37328,10365,11091,21791} B={35106,25993,61596,50256}
+# T=1115900 [Monitor] captured write @addr 0, val=5546692772
+# T=1116000 [Generator] Loop:5/64 created no write
+# T=1116500 [Driver] A={54510,9450,7839,3420} B={49268,14897,20101,3031}
+# T=1117900 [Monitor] captured write @addr 1, val=5358281629
+# T=1118000 [Monitor] captured MAC request. Exp Sum=2994313089
+# T=1118000 [Generator] Loop:5/64 create next item
+# T=1118500 [Driver] A={55399,767,24894,41180} B={49679,58757,31949,64089}
+# T=1120000 [Monitor] captured MAC request. Exp Sum=6231756966
+# T=1120000 [Generator] Loop:6/64 create next item
+# T=1120500 [Driver] A={43108,55063,25160,1788} B={50493,38480,52011,61311}
+# T=1122000 [Monitor] captured MAC request. Exp Sum=5713697312
+# T=1122000 [Generator] Loop:7/64 create next item
+# T=1122500 [Driver] A={64976,33280,10824,62807} B={61601,31241,36208,1591}
+# T=1123900 [Monitor] captured write @addr 2, val=2584245572
+# T=1124000 [Generator] Loop:8/64 created no write
+# T=1124500 [Driver] A={11994,56876,31234,33668} B={16639,14113,5932,64822}
+# T=1126000 [Generator] Loop:8/64 created no write
+# T=1126500 [Driver] A={19049,62610,51442,32158} B={23600,33131,7261,48811}
+# T=1127900 [Monitor] captured write @addr 3, val=2994313089
+# T=1128000 [Generator] Loop:8/64 created no write
+# T=1128500 [Driver] A={41570,60683,12250,58993} B={1239,3246,41268,16977}
+# T=1129900 [Monitor] captured write @addr 4, val=6231756966
+# T=1130000 [Generator] Loop:8/64 created no write
+# T=1130500 [Driver] A={1536,41111,12189,288} B={20901,43529,37089,17801}
+# T=1131900 [Monitor] captured write @addr 5, val=5713697312
+# T=1132000 [Monitor] captured MAC request. Exp Sum=2278829164
+# T=1132000 [Generator] Loop:8/64 create next item
+# T=1132500 [Driver] A={53758,4303,46039,47033} B={21849,13700,30046,59324}
+# T=1134000 [Generator] Loop:9/64 created no write
+# T=1134500 [Driver] A={575,22099,58551,42920} B={33126,20621,24348,33127}
+# T=1136000 [Generator] Loop:9/64 created no write
+# T=1136500 [Driver] A={6098,55734,1167,27640} B={49390,44889,54314,15166}
+# T=1138000 [Generator] Loop:9/64 created no write
+# T=1138500 [Driver] A={51586,19427,3018,24616} B={10646,46030,36040,27353}
+# T=1140000 [Monitor] captured MAC request. Exp Sum=2225499534
+# T=1140000 [Generator] Loop:9/64 create next item
+# T=1140500 [Driver] A={2866,44465,22505,39981} B={37127,63123,15682,19096}
+# T=1141900 [Monitor] captured write @addr 6, val=2278829164
+# T=1142000 [Generator] Loop:10/64 created no write
+# T=1142500 [Driver] A={46385,62083,5285,12350} B={37886,37919,62070,34725}
+# T=1144000 [Generator] Loop:10/64 created no write
+# T=1144500 [Driver] A={13079,34389,31159,3047} B={61534,17965,28973,26656}
+# T=1146000 [Generator] Loop:10/64 created no write
+# T=1146500 [Driver] A={62919,27186,24925,17724} B={33156,57642,3267,29402}
+# T=1148000 [Generator] Loop:10/64 created no write
+# T=1148500 [Driver] A={5242,62876,48279,61094} B={63850,60591,28841,19023}
+# T=1149900 [Monitor] captured write @addr 7, val=2225499534
+# T=1150000 [Monitor] captured MAC request. Exp Sum=6699027217
+# T=1150000 [Generator] Loop:10/64 create next item
+# T=1150500 [Driver] A={45374,4567,34633,50550} B={24201,26403,725,8503}
+# T=1152000 [Generator] Loop:11/64 created no write
+# T=1152500 [Driver] A={22319,46446,31235,11369} B={27823,65231,21658,64985}
+# T=1154000 [Generator] Loop:11/64 created no write
+# T=1154500 [Driver] A={40253,24914,14189,34151} B={32685,18143,12851,21990}
+# T=1156000 [Monitor] captured MAC request. Exp Sum=2701007336
+# T=1156000 [Generator] Loop:11/64 create next item
+# T=1156500 [Driver] A={9747,61099,31519,4281} B={34012,16399,13161,38266}
+# T=1158000 [Monitor] captured MAC request. Exp Sum=1912115770
+# T=1158000 [Generator] Loop:12/64 create next item
+# T=1158500 [Driver] A={20523,38424,1731,16327} B={35567,39000,48630,32056}
+# T=1159900 [Monitor] captured write @addr 8, val=6699027217
+# T=1160000 [Monitor] captured MAC request. Exp Sum=2836034383
+# T=1160000 [Generator] Loop:13/64 create next item
+# T=1160500 [Driver] A={11695,59032,35600,46304} B={26640,53673,63506,30984}
+# T=1162000 [Monitor] captured MAC request. Exp Sum=7175476072
+# T=1162000 [Generator] Loop:14/64 create next item
+# T=1162500 [Driver] A={26229,15912,40993,41313} B={55386,16089,2417,47015}
+# T=1164000 [Generator] Loop:15/64 created no write
+# T=1164500 [Driver] A={28157,12313,5202,11135} B={56771,61024,15999,32765}
+# T=1165900 [Monitor] captured write @addr 9, val=2701007336
+# T=1166000 [Monitor] captured MAC request. Exp Sum=2797954632
+# T=1166000 [Generator] Loop:15/64 create next item
+# T=1166500 [Driver] A={37074,21211,33406,33057} B={20015,7099,2558,36480}
+# T=1167900 [Monitor] captured write @addr 10, val=1912115770
+# T=1168000 [Generator] Loop:16/64 created no write
+# T=1168500 [Driver] A={36004,13694,6924,29509} B={62447,35846,13715,62977}
+# T=1169900 [Monitor] captured write @addr 11, val=2836034383
+# T=1170000 [Monitor] captured MAC request. Exp Sum=4692567865
+# T=1170000 [Generator] Loop:16/64 create next item
+# T=1170500 [Driver] A={2468,49102,63486,62022} B={24472,1529,14169,3322}
+# T=1171900 [Monitor] captured write @addr 12, val=7175476072
+# T=1172000 [Generator] Loop:17/64 created no write
+# T=1172500 [Driver] A={29117,28944,33198,17685} B={23619,50510,18786,49549}
+# T=1174000 [Monitor] captured MAC request. Exp Sum=3649607556
+# T=1174000 [Generator] Loop:17/64 create next item
+# T=1174500 [Driver] A={29052,54911,7537,60596} B={44086,40967,37916,50051}
+# T=1175900 [Monitor] captured write @addr 13, val=2797954632
+# T=1176000 [Monitor] captured MAC request. Exp Sum=6848988697
+# T=1176000 [Generator] Loop:18/64 create next item
+# T=1176500 [Driver] A={31339,2821,39736,34797} B={63921,54108,36204,55629}
+# T=1178000 [Monitor] captured MAC request. Exp Sum=5530183344
+# T=1178000 [Generator] Loop:19/64 create next item
+# T=1178500 [Driver] A={3886,49658,1252,50429} B={30265,47096,44317,48362}
+# T=1179900 [Monitor] captured write @addr 14, val=4692567865
+# T=1180000 [Monitor] captured MAC request. Exp Sum=4950635140
+# T=1180000 [Generator] Loop:20/64 create next item
+# T=1180500 [Driver] A={52079,60798,39737,27910} B={11249,40693,17226,16366}
+# T=1182000 [Generator] Loop:21/64 created no write
+# T=1182500 [Driver] A={25250,12540,15462,46711} B={39633,36111,20317,10298}
+# T=1183900 [Monitor] captured write @addr 15, val=3649607556
+# T=1184000 [Monitor] captured MAC request. Exp Sum=2248736522
+# T=1184000 [Generator] Loop:21/64 create next item
+# T=1184500 [Driver] A={3179,64321,1291,39506} B={38358,53655,4551,9141}
+# T=1185900 [Monitor] captured write @addr 16, val=6848988697
+# T=1186000 [Generator] Loop:22/64 created no write
+# T=1186500 [Driver] A={32634,49602,48378,18156} B={1897,45937,32169,46021}
+# T=1187900 [Monitor] captured write @addr 17, val=5530183344
+# T=1188000 [Monitor] captured MAC request. Exp Sum=4732302930
+# T=1188000 [Generator] Loop:22/64 create next item
+# T=1188500 [Driver] A={55763,12917,20613,48157} B={9924,4183,54809,38074}
+# T=1189900 [Monitor] captured write @addr 18, val=4950635140
+# T=1190000 [Generator] Loop:23/64 created no write
+# T=1190500 [Driver] A={37606,21973,31862,61395} B={13062,25906,44364,17058}
+# T=1192000 [Generator] Loop:23/64 created no write
+# T=1192500 [Driver] A={54306,1736,47598,2199} B={1357,34168,4164,727}
+# T=1193900 [Monitor] captured write @addr 19, val=2248736522
+# T=1194000 [Generator] Loop:23/64 created no write
+# T=1194500 [Driver] A={41424,45278,15311,56096} B={19293,53008,27733,152}
+# T=1196000 [Generator] Loop:23/64 created no write
+# T=1196500 [Driver] A={1408,14464,5511,4099} B={22218,12365,39216,28495}
+# T=1197900 [Monitor] captured write @addr 20, val=4732302930
+# T=1198000 [Monitor] captured MAC request. Exp Sum=543050685
+# T=1198000 [Generator] Loop:23/64 create next item
+# T=1198500 [Driver] A={6460,28922,34154,27557} B={17981,13867,7078,52691}
+# T=1200000 [Monitor] captured MAC request. Exp Sum=2210966533
+# T=1200000 [Generator] Loop:24/64 create next item
+# T=1200500 [Driver] A={16686,15286,30811,3765} B={32110,15639,4556,56887}
+# T=1202000 [Generator] Loop:25/64 created no write
+# T=1202500 [Driver] A={3342,26757,39424,8980} B={19893,9996,6375,34212}
+# T=1204000 [Generator] Loop:25/64 created no write
+# T=1204500 [Driver] A={5138,29659,65211,62713} B={59176,62960,44556,34335}
+# T=1206000 [Generator] Loop:25/64 created no write
+# T=1206500 [Driver] A={32314,53533,53673,30325} B={26364,15657,41365,20145}
+# T=1207900 [Monitor] captured write @addr 21, val=543050685
+# T=1208000 [Monitor] captured MAC request. Exp Sum=4521173247
+# T=1208000 [Generator] Loop:25/64 create next item
+# T=1208500 [Driver] A={10412,54561,46961,40626} B={18503,41691,13466,19911}
+# T=1209900 [Monitor] captured write @addr 22, val=2210966533
+# T=1210000 [Monitor] captured MAC request. Exp Sum=3908636999
+# T=1210000 [Generator] Loop:26/64 create next item
+# T=1210500 [Driver] A={27398,15858,57699,32492} B={7683,40417,62252,23886}
+# T=1212000 [Generator] Loop:27/64 created no write
+# T=1212500 [Driver] A={12102,33586,8092,5927} B={33665,13766,37701,53405}
+# T=1214000 [Monitor] captured MAC request. Exp Sum=1491366633
+# T=1214000 [Generator] Loop:27/64 create next item
+# T=1214500 [Driver] A={16723,45440,53939,62661} B={27738,34306,22548,48677}
+# T=1216000 [Monitor] captured MAC request. Exp Sum=6289093283
+# T=1216000 [Generator] Loop:28/64 create next item
+# T=1216500 [Driver] A={37205,39340,46050,28717} B={52523,48042,30050,15927}
+# T=1217900 [Monitor] captured write @addr 23, val=4521173247
+# T=1218000 [Generator] Loop:29/64 created no write
+# T=1218500 [Driver] A={58545,50366,7201,52537} B={3412,43719,47637,53754}
+# T=1219900 [Monitor] captured write @addr 24, val=3908636999
+# T=1220000 [Generator] Loop:29/64 created no write
+# T=1220500 [Driver] A={37259,10505,64616,775} B={23461,30632,48599,17397}
+# T=1222000 [Monitor] captured MAC request. Exp Sum=4349678218
+# T=1222000 [Generator] Loop:29/64 create next item
+# T=1222500 [Driver] A={45759,37941,57398,13424} B={23398,26492,51455,64091}
+# T=1223900 [Monitor] captured write @addr 25, val=1491366633
+# T=1224000 [Monitor] captured MAC request. Exp Sum=5889573728
+# T=1224000 [Generator] Loop:30/64 create next item
+# T=1224500 [Driver] A={61489,2705,44529,62807} B={17497,41621,42749,27560}
+# T=1225900 [Monitor] captured write @addr 26, val=6289093283
+# T=1226000 [Generator] Loop:31/64 created no write
+# T=1226500 [Driver] A={39745,50513,22166,58659} B={52976,48065,16166,1784}
+# T=1228000 [Generator] Loop:31/64 created no write
+# T=1228500 [Driver] A={63090,26571,11796,52252} B={46861,39136,48660,53208}
+# T=1230000 [Generator] Loop:31/64 created no write
+# T=1230500 [Driver] A={41720,35938,29198,60325} B={78,35419,17187,25065}
+# T=1231900 [Monitor] captured write @addr 27, val=4349678218
+# T=1232000 [Monitor] captured MAC request. Exp Sum=3290014333
+# T=1232000 [Generator] Loop:31/64 create next item
+# T=1232500 [Driver] A={63162,42744,31067,15565} B={11170,24338,57738,9505}
+# T=1233900 [Monitor] captured write @addr 28, val=5889573728
+# T=1234000 [Generator] Loop:32/64 created no write
+# T=1234500 [Driver] A={21583,3923,28683,16929} B={8788,32327,11655,9434}
+# T=1236000 [Monitor] captured MAC request. Exp Sum=810498776
+# T=1236000 [Generator] Loop:32/64 create next item
+# T=1236500 [Driver] A={9289,11051,48098,51147} B={2432,36583,19080,22492}
+# T=1238000 [Monitor] captured MAC request. Exp Sum=2494977745
+# T=1238000 [Generator] Loop:33/64 create next item
+# T=1238500 [Driver] A={54993,16139,30378,18405} B={62713,2879,56633,36079}
+# T=1240000 [Monitor] captured MAC request. Exp Sum=5879671459
+# T=1240000 [Generator] Loop:34/64 create next item
+# T=1240500 [Driver] A={31778,9542,23662,28312} B={13146,39362,61436,43125}
+# T=1241900 [Monitor] captured write @addr 29, val=3290014333
+# T=1242000 [Generator] Loop:35/64 created no write
+# T=1242500 [Driver] A={37716,46921,43929,50292} B={49472,1334,31520,63548}
+# T=1244000 [Monitor] captured MAC request. Exp Sum=6509076662
+# T=1244000 [Generator] Loop:35/64 create next item
+# T=1244500 [Driver] A={33344,58430,64903,48456} B={30923,51941,17944,18549}
+# T=1245900 [Monitor] captured write @addr 30, val=810498776
+# T=1246000 [Monitor] captured MAC request. Exp Sum=6129438918
+# T=1246000 [Generator] Loop:36/64 create next item
+# T=1246500 [Driver] A={22183,8004,21260,59461} B={28506,31385,61070,64624}
+# T=1247900 [Monitor] captured write @addr 31, val=2494977745
+# T=1248000 [Generator] Loop:37/64 created no write
+# T=1248500 [Driver] A={54376,33126,51543,22160} B={9038,50280,6144,12772}
+# T=1249900 [Monitor] captured write @addr 32, val=5879671459
+# T=1250000 [Generator] Loop:37/64 created no write
+# T=1250500 [Driver] A={28635,24422,29354,17772} B={20992,6009,33229,56857}
+# T=1252000 [Generator] Loop:37/64 created no write
+# T=1252500 [Driver] A={46679,2531,2584,20722} B={30383,8789,61029,54923}
+# T=1253900 [Monitor] captured write @addr 33, val=6509076662
+# T=1254000 [Generator] Loop:37/64 created no write
+# T=1254500 [Driver] A={11497,10357,50524,46431} B={21555,50580,19299,24706}
+# T=1255900 [Monitor] captured write @addr 34, val=6129438918
+# T=1256000 [Monitor] captured MAC request. Exp Sum=2893861857
+# T=1256000 [Generator] Loop:37/64 create next item
+# T=1256500 [Driver] A={17931,49127,61017,32367} B={40242,41100,28659,22120}
+# T=1258000 [Monitor] captured MAC request. Exp Sum=5205343245
+# T=1258000 [Generator] Loop:38/64 create next item
+# T=1258500 [Driver] A={21194,56047,18321,21277} B={50713,38964,3621,63131}
+# T=1260000 [Generator] Loop:39/64 created no write
+# T=1260500 [Driver] A={657,4933,18590,25204} B={20562,39891,44361,7271}
+# T=1262000 [Monitor] captured MAC request. Exp Sum=1218220811
+# T=1262000 [Generator] Loop:39/64 create next item
+# T=1262500 [Driver] A={49648,51406,38436,15343} B={33406,51375,61894,7307}
+# T=1264000 [Generator] Loop:40/64 created no write
+# T=1264500 [Driver] A={17000,62303,58895,51985} B={31897,14143,3760,21421}
+# T=1265900 [Monitor] captured write @addr 35, val=2893861857
+# T=1266000 [Monitor] captured MAC request. Exp Sum=2758416214
+# T=1266000 [Generator] Loop:40/64 create next item
+# T=1266500 [Driver] A={34490,49512,54071,59892} B={45935,32789,6985,59367}
+# T=1267900 [Monitor] captured write @addr 36, val=5205343245
+# T=1268000 [Monitor] captured MAC request. Exp Sum=7141041417
+# T=1268000 [Generator] Loop:41/64 create next item
+# T=1268500 [Driver] A={61984,31246,64774,29556} B={26026,5481,30078,26526}
+# T=1270000 [Generator] Loop:42/64 created no write
+# T=1270500 [Driver] A={57731,6476,44728,9087} B={5572,28143,38051,30348}
+# T=1271900 [Monitor] captured write @addr 37, val=1218220811
+# T=1272000 [Generator] Loop:42/64 created no write
+# T=1272500 [Driver] A={47368,3935,9593,9704} B={62643,60313,25167,1634}
+# T=1274000 [Generator] Loop:42/64 created no write
+# T=1274500 [Driver] A={56097,16105,42389,21727} B={1245,28945,29273,39049}
+# T=1275900 [Monitor] captured write @addr 38, val=2758416214
+# T=1276000 [Monitor] captured MAC request. Exp Sum=2625270810
+# T=1276000 [Generator] Loop:42/64 create next item
+# T=1276500 [Driver] A={6657,7798,4462,33701} B={20455,58994,21038,17454}
+# T=1277900 [Monitor] captured write @addr 39, val=7141041417
+# T=1278000 [Generator] Loop:43/64 created no write
+# T=1278500 [Driver] A={65497,17974,52643,37298} B={14657,2368,50158,1178}
+# T=1280000 [Generator] Loop:43/64 created no write
+# T=1280500 [Driver] A={31064,19868,34055,8990} B={34847,21679,19451,63730}
+# T=1282000 [Monitor] captured MAC request. Exp Sum=2748542085
+# T=1282000 [Generator] Loop:43/64 create next item
+# T=1282500 [Driver] A={29402,34443,13566,4693} B={61739,58030,50268,38661}
+# T=1284000 [Monitor] captured MAC request. Exp Sum=4677349129
+# T=1284000 [Generator] Loop:44/64 create next item
+# T=1284500 [Driver] A={27376,28041,24246,15854} B={13680,50831,23494,29869}
+# T=1285900 [Monitor] captured write @addr 40, val=2625270810
+# T=1286000 [Generator] Loop:45/64 created no write
+# T=1286500 [Driver] A={11721,44220,26645,36788} B={11448,52210,56862,61851}
+# T=1288000 [Monitor] captured MAC request. Exp Sum=6233370786
+# T=1288000 [Generator] Loop:45/64 create next item
+# T=1288500 [Driver] A={33507,64443,43576,22543} B={34357,29395,49915,18767}
+# T=1290000 [Generator] Loop:46/64 created no write
+# T=1290500 [Driver] A={43361,5308,25236,35123} B={62397,55148,42182,4004}
+# T=1291900 [Monitor] captured write @addr 41, val=2748542085
+# T=1292000 [Monitor] captured MAC request. Exp Sum=4203459345
+# T=1292000 [Generator] Loop:46/64 create next item
+# T=1292500 [Driver] A={37556,48793,62642,51840} B={24867,6866,24144,40329}
+# T=1293900 [Monitor] captured write @addr 42, val=4677349129
+# T=1294000 [Generator] Loop:47/64 created no write
+# T=1294500 [Driver] A={28383,12856,46183,8364} B={3871,34693,1968,28455}
+# T=1296000 [Monitor] captured MAC request. Exp Sum=884769565
+# T=1296000 [Generator] Loop:47/64 create next item
+# T=1296500 [Driver] A={13680,6404,9372,57978} B={11242,14907,38533,36001}
+# T=1297900 [Monitor] captured write @addr 43, val=6233370786
+# T=1298000 [Monitor] captured MAC request. Exp Sum=2697652242
+# T=1298000 [Generator] Loop:48/64 create next item
+# T=1298500 [Driver] A={11688,18346,614,43923} B={5136,45160,64337,7559}
+# T=1300000 [Generator] Loop:49/64 created no write
+# T=1300500 [Driver] A={52679,5065,60744,50068} B={56265,20156,28468,6780}
+# T=1301900 [Monitor] captured write @addr 44, val=4203459345
+# T=1302000 [Generator] Loop:49/64 created no write
+# T=1302500 [Driver] A={64535,5459,63962,12357} B={29108,56714,36223,55986}
+# T=1304000 [Generator] Loop:49/64 created no write
+# T=1304500 [Driver] A={12510,45398,32245,61905} B={54886,35470,11278,6443}
+# T=1305900 [Monitor] captured write @addr 45, val=884769565
+# T=1306000 [Generator] Loop:49/64 created no write
+# T=1306500 [Driver] A={27221,20914,63263,58349} B={12108,22977,1064,61754}
+# T=1307900 [Monitor] captured write @addr 46, val=2697652242
+# T=1308000 [Generator] Loop:49/64 created no write
+# T=1308500 [Driver] A={799,41476,42270,3757} B={48832,53836,37248,5665}
+# T=1310000 [Generator] Loop:49/64 created no write
+# T=1310500 [Driver] A={62378,56287,63357,37706} B={44423,42396,55856,46552}
+# T=1312000 [Monitor] captured MAC request. Exp Sum=10451519850
+# T=1312000 [Generator] Loop:49/64 create next item
+# T=1312500 [Driver] A={27088,57847,22242,49071} B={47271,19154,33664,15233}
+# T=1314000 [Generator] Loop:50/64 created no write
+# T=1314500 [Driver] A={20099,33980,32813,30443} B={10726,16814,53960,62824}
+# T=1316000 [Monitor] captured MAC request. Exp Sum=4470062106
+# T=1316000 [Generator] Loop:50/64 create next item
+# T=1316500 [Driver] A={32839,9446,3180,34316} B={50859,23244,43315,39889}
+# T=1318000 [Monitor] captured MAC request. Exp Sum=3396294149
+# T=1318000 [Generator] Loop:51/64 create next item
+# T=1318500 [Driver] A={3664,41281,23650,27084} B={27293,53567,52093,39852}
+# T=1320000 [Monitor] captured MAC request. Exp Sum=4622651897
+# T=1320000 [Generator] Loop:52/64 create next item
+# T=1320500 [Driver] A={36001,42490,20905,54448} B={784,33760,40628,22291}
+# T=1321900 [Monitor] captured write @addr 47, val=10451519850
+# T=1322000 [Generator] Loop:53/64 created no write
+# T=1322500 [Driver] A={33145,38655,12486,65163} B={6611,13498,16931,21487}
+# T=1324000 [Generator] Loop:53/64 created no write
+# T=1324500 [Driver] A={33760,47695,26188,40983} B={27522,35841,1008,14268}
+# T=1325900 [Monitor] captured write @addr 48, val=4470062106
+# T=1326000 [Monitor] captured MAC request. Exp Sum=3249722163
+# T=1326000 [Generator] Loop:53/64 create next item
+# T=1326500 [Driver] A={63821,40151,16517,33081} B={60524,28756,18395,49398}
+# T=1327900 [Monitor] captured write @addr 49, val=3396294149
+# T=1328000 [Monitor] captured MAC request. Exp Sum=6955249813
+# T=1328000 [Generator] Loop:54/64 create next item
+# T=1328500 [Driver] A={59150,62238,1858,6769} B={17401,8263,63894,52663}
+# T=1329900 [Monitor] captured write @addr 50, val=4622651897
+# T=1330000 [Monitor] captured MAC request. Exp Sum=2018732643
+# T=1330000 [Generator] Loop:55/64 create next item
+# T=1330500 [Driver] A={22132,2998,1714,37910} B={62889,40012,18884,29526}
+# T=1332000 [Generator] Loop:56/64 created no write
+# T=1332500 [Driver] A={62187,45337,2831,20728} B={51011,27265,32781,29530}
+# T=1334000 [Generator] Loop:56/64 created no write
+# T=1334500 [Driver] A={9887,11451,49626,28172} B={24414,42056,6139,9615}
+# T=1335900 [Monitor] captured write @addr 51, val=3249722163
+# T=1336000 [Monitor] captured MAC request. Exp Sum=1298492268
+# T=1336000 [Generator] Loop:56/64 create next item
+# T=1336500 [Driver] A={48054,62246,40965,12120} B={22724,23376,28262,60068}
+# T=1337900 [Monitor] captured write @addr 52, val=6955249813
+# T=1338000 [Monitor] captured MAC request. Exp Sum=4432818582
+# T=1338000 [Generator] Loop:57/64 create next item
+# T=1338500 [Driver] A={1849,40694,18480,4750} B={64445,52571,49049,64704}
+# T=1339900 [Monitor] captured write @addr 53, val=2018732643
+# T=1340000 [Monitor] captured MAC request. Exp Sum=3472252599
+# T=1340000 [Generator] Loop:58/64 create next item
+# T=1340500 [Driver] A={35125,14599,23025,28553} B={2070,18150,30160,22495}
+# T=1342000 [Generator] Loop:59/64 created no write
+# T=1342500 [Driver] A={8881,63250,28499,27133} B={17925,12692,57944,62030}
+# T=1344000 [Generator] Loop:59/64 created no write
+# T=1344500 [Driver] A={9,29552,47369,37130} B={18227,35435,25032,28789}
+# T=1345900 [Monitor] captured write @addr 54, val=1298492268
+# T=1346000 [Monitor] captured MAC request. Exp Sum=3302015541
+# T=1346000 [Generator] Loop:59/64 create next item
+# T=1346500 [Driver] A={8425,9117,23247,33191} B={49670,40105,28544,33240}
+# T=1347900 [Monitor] captured write @addr 55, val=4432818582
+# T=1348000 [Generator] Loop:60/64 created no write
+# T=1348500 [Driver] A={34079,57467,5843,18536} B={36325,3628,56769,53085}
+# T=1349900 [Monitor] captured write @addr 56, val=3472252599
+# T=1350000 [Generator] Loop:60/64 created no write
+# T=1350500 [Driver] A={6647,32087,11744,17060} B={25402,10420,3257,50520}
+# T=1352000 [Monitor] captured MAC request. Exp Sum=1403315042
+# T=1352000 [Generator] Loop:60/64 create next item
+# T=1352500 [Driver] A={16731,41199,61378,4604} B={53509,31590,6629,14183}
+# T=1354000 [Generator] Loop:61/64 created no write
+# T=1354500 [Driver] A={47522,46189,11476,3987} B={19909,7068,3446,59535}
+# T=1355900 [Monitor] captured write @addr 57, val=3302015541
+# T=1356000 [Monitor] captured MAC request. Exp Sum=1549491691
+# T=1356000 [Generator] Loop:61/64 create next item
+# T=1356500 [Driver] A={36742,2282,52752,40893} B={57577,43382,20929,8822}
+# T=1358000 [Generator] Loop:62/64 created no write
+# T=1358500 [Driver] A={5103,20710,58094,41749} B={57204,62667,65174,12080}
+# T=1360000 [Generator] Loop:62/64 created no write
+# T=1360500 [Driver] A={30419,2596,24938,31507} B={59312,3739,3923,26448}
+# T=1361900 [Monitor] captured write @addr 58, val=1403315042
+# T=1362000 [Generator] Loop:62/64 created no write
+# T=1362500 [Driver] A={12761,27234,31946,14093} B={53647,56281,19867,58999}
+# T=1364000 [Generator] Loop:62/64 created no write
+# T=1364500 [Driver] A={9035,22419,50746,7494} B={41517,24173,58330,12329}
+# T=1365900 [Monitor] captured write @addr 59, val=1549491691
+# T=1366000 [Generator] Loop:62/64 created no write
+# T=1366500 [Driver] A={10357,20964,52175,46728} B={20125,27929,7484,5534}
+# T=1368000 [Monitor] captured MAC request. Exp Sum=1443008633
+# T=1368000 [Generator] Loop:62/64 create next item
+# T=1368500 [Driver] A={20322,32369,6259,11235} B={2238,7001,27533,51272}
+# T=1370000 [Generator] Loop:63/64 created no write
+# T=1370500 [Driver] A={43250,21900,10694,40193} B={54927,8004,1954,42495}
+# T=1372000 [Monitor] captured MAC request. Exp Sum=4279777961
+# T=1372000 [Generator] Loop:63/64 create next item
+# T=1372500 [Driver] A={21337,62987,61512,7768} B={34611,47763,4011,30555}
+# T=1374000 [Generator] Loop:64/64 created no write
+# T=1374500 [Driver] A={27639,41359,46480,58743} B={37035,34324,46466,49076}
+# T=1376000 [Generator] Loop:64/64 created no write
+# T=1376500 [Driver] A={35361,28134,12154,534} B={48893,24643,32978,34483}
+# T=1377900 [Monitor] captured write @addr 60, val=1443008633
+# T=1378000 [Monitor] captured MAC request. Exp Sum=2841440069
+# T=1378000 [Generator] Loop:64/64 create next item
+# T=1378500 [Driver] A={57037,39690,59687,27897} B={49259,11769,605,3472}
+# T=1380000 [Monitor] captured MAC request. Exp Sum=3409666212
+# T=1380000 [Generator] Done generation of 64 items
+# T=1381900 [Monitor] captured write @addr 61, val=4279777961
+# T=1387900 [Monitor] captured write @addr 62, val=2841440069
+# T=1389900 [Monitor] captured write @addr 63, val=3409666212
+# T=1390860 [Generator] Read Begin
+# T=1391360 [Driver] starting read
+# ** Error: $setup( negedge D:1392290 ps, posedge CK:1392390 ps, 130 ps );
+#    Time: 1392390 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][5][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:1392320 ps, posedge CK:1392400 ps, 120 ps );
+#    Time: 1392400 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][7][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:1392370 ps, posedge CK:1392400 ps, 140 ps );
+#    Time: 1392400 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][15][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:1392310 ps, posedge CK:1392410 ps, 130 ps );
+#    Time: 1392410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][0][3] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:1392310 ps, posedge CK:1392410 ps, 130 ps );
+#    Time: 1392410 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][9][5] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:1392380 ps, posedge CK:1392420 ps, 110 ps );
+#    Time: 1392420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][10][5] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:1392300 ps, posedge CK:1392420 ps, 140 ps );
+#    Time: 1392420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][4][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:1392310 ps, posedge CK:1392420 ps, 130 ps );
+#    Time: 1392420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][12][3] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:1392350 ps, posedge CK:1392420 ps, 120 ps );
+#    Time: 1392420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][14][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:1392400 ps, posedge CK:1392420 ps, 120 ps );
+#    Time: 1392420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][0][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:1392400 ps, posedge CK:1392420 ps, 120 ps );
+#    Time: 1392420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][13][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:1392320 ps, posedge CK:1392420 ps, 120 ps );
+#    Time: 1392420 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[0][9][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:1392380 ps, posedge CK:1392430 ps, 120 ps );
+#    Time: 1392430 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][1][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:1392350 ps, posedge CK:1392430 ps, 140 ps );
+#    Time: 1392430 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[2][0][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:1392360 ps, posedge CK:1392430 ps, 130 ps );
+#    Time: 1392430 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][13][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:1392370 ps, posedge CK:1392430 ps, 130 ps );
+#    Time: 1392430 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][13][5] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $hold( posedge CK:1392420 ps, negedge D:1392430 ps, 20 ps );
+#    Time: 1392430 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][10][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:1392340 ps, posedge CK:1392440 ps, 130 ps );
+#    Time: 1392440 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[3][13][5] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:1392390 ps, posedge CK:1392440 ps, 120 ps );
+#    Time: 1392440 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][15][4] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# ** Error: $setup( negedge D:1392330 ps, posedge CK:1392440 ps, 120 ps );
+#    Time: 1392440 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][9][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 3257
+# ** Error: $setup( negedge D:1392350 ps, posedge CK:1392450 ps, 110 ps );
+#    Time: 1392450 ps  Iteration: 1  Process: /mac_accel_tb/mac_accel/\stage1_regs_reg[1][1][6] /#Setuphold# File: /ubc/ece/data/cmc2/kits/GPDK45/gsclib045_all_v4.4/gsclib045/verilog/slow_vdd1v0_basicCells.v Line: 2880
+# T=1392500 [Driver]  driving read
+# T=1394500 [Driver]  driving read
+# T=1396500 [Driver]  driving read
+# T=1397900 [Monitor] captured read @addr 0, val=5546692772
+# T=1398500 [Driver]  driving read
+# T=1399900 [Monitor] captured read @addr 1, val=5358281629
+# T=1400500 [Driver]  driving read
+# T=1401900 [Monitor] captured read @addr 2, val=2584245572
+# T=1402500 [Driver]  driving read
+# T=1403900 [Monitor] captured read @addr 3, val=2994313089
+# T=1404500 [Driver]  driving read
+# T=1405900 [Monitor] captured read @addr 4, val=6231756966
+# T=1406500 [Driver]  driving read
+# T=1407900 [Monitor] captured read @addr 5, val=5713697312
+# T=1408500 [Driver]  driving read
+# T=1409900 [Monitor] captured read @addr 6, val=2278829164
+# T=1410500 [Driver]  driving read
+# T=1411900 [Monitor] captured read @addr 7, val=2225499534
+# T=1412500 [Driver]  driving read
+# T=1413900 [Monitor] captured read @addr 8, val=6699027217
+# T=1414500 [Driver]  driving read
+# T=1415900 [Monitor] captured read @addr 9, val=2701007336
+# T=1416500 [Driver]  driving read
+# T=1417900 [Monitor] captured read @addr 10, val=1912115770
+# T=1418500 [Driver]  driving read
+# T=1419900 [Monitor] captured read @addr 11, val=2836034383
+# T=1420500 [Driver]  driving read
+# T=1421900 [Monitor] captured read @addr 12, val=7175476072
+# T=1422500 [Driver]  driving read
+# T=1423900 [Monitor] captured read @addr 13, val=2797954632
+# T=1424500 [Driver]  driving read
+# T=1425900 [Monitor] captured read @addr 14, val=4692567865
+# T=1426500 [Driver]  driving read
+# T=1427900 [Monitor] captured read @addr 15, val=3649607556
+# T=1428500 [Driver]  driving read
+# T=1429900 [Monitor] captured read @addr 16, val=6848988697
+# T=1430500 [Driver]  driving read
+# T=1431900 [Monitor] captured read @addr 17, val=5530183344
+# T=1432500 [Driver]  driving read
+# T=1433900 [Monitor] captured read @addr 18, val=4950635140
+# T=1434500 [Driver]  driving read
+# T=1435900 [Monitor] captured read @addr 19, val=2248736522
+# T=1436500 [Driver]  driving read
+# T=1437900 [Monitor] captured read @addr 20, val=4732302930
+# T=1438500 [Driver]  driving read
+# T=1439900 [Monitor] captured read @addr 21, val=543050685
+# T=1440500 [Driver]  driving read
+# T=1441900 [Monitor] captured read @addr 22, val=2210966533
+# T=1442500 [Driver]  driving read
+# T=1443900 [Monitor] captured read @addr 23, val=4521173247
+# T=1444500 [Driver]  driving read
+# T=1445900 [Monitor] captured read @addr 24, val=3908636999
+# T=1446500 [Driver]  driving read
+# T=1447900 [Monitor] captured read @addr 25, val=1491366633
+# T=1448500 [Driver]  driving read
+# T=1449900 [Monitor] captured read @addr 26, val=6289093283
+# T=1450500 [Driver]  driving read
+# T=1451900 [Monitor] captured read @addr 27, val=4349678218
+# T=1452500 [Driver]  driving read
+# T=1453900 [Monitor] captured read @addr 28, val=5889573728
+# T=1454500 [Driver]  driving read
+# T=1455900 [Monitor] captured read @addr 29, val=3290014333
+# T=1456500 [Driver]  driving read
+# T=1457900 [Monitor] captured read @addr 30, val=810498776
+# T=1458500 [Driver]  driving read
+# T=1459900 [Monitor] captured read @addr 31, val=2494977745
+# T=1460500 [Driver]  driving read
+# T=1461900 [Monitor] captured read @addr 32, val=5879671459
+# T=1462500 [Driver]  driving read
+# T=1463900 [Monitor] captured read @addr 33, val=6509076662
+# T=1464500 [Driver]  driving read
+# T=1465900 [Monitor] captured read @addr 34, val=6129438918
+# T=1466500 [Driver]  driving read
+# T=1467900 [Monitor] captured read @addr 35, val=2893861857
+# T=1468500 [Driver]  driving read
+# T=1469900 [Monitor] captured read @addr 36, val=5205343245
+# T=1470500 [Driver]  driving read
+# T=1471900 [Monitor] captured read @addr 37, val=1218220811
+# T=1472500 [Driver]  driving read
+# T=1473900 [Monitor] captured read @addr 38, val=2758416214
+# T=1474500 [Driver]  driving read
+# T=1475900 [Monitor] captured read @addr 39, val=7141041417
+# T=1476500 [Driver]  driving read
+# T=1477900 [Monitor] captured read @addr 40, val=2625270810
+# T=1478500 [Driver]  driving read
+# T=1479900 [Monitor] captured read @addr 41, val=2748542085
+# T=1480500 [Driver]  driving read
+# T=1481900 [Monitor] captured read @addr 42, val=4677349129
+# T=1482500 [Driver]  driving read
+# T=1483900 [Monitor] captured read @addr 43, val=6233370786
+# T=1484500 [Driver]  driving read
+# T=1485900 [Monitor] captured read @addr 44, val=4203459345
+# T=1486500 [Driver]  driving read
+# T=1487900 [Monitor] captured read @addr 45, val=884769565
+# T=1488500 [Driver]  driving read
+# T=1489900 [Monitor] captured read @addr 46, val=2697652242
+# T=1490500 [Driver]  driving read
+# T=1491900 [Monitor] captured read @addr 47, val=10451519850
+# T=1492500 [Driver]  driving read
+# T=1493900 [Monitor] captured read @addr 48, val=4470062106
+# T=1494500 [Driver]  driving read
+# T=1495900 [Monitor] captured read @addr 49, val=3396294149
+# T=1496500 [Driver]  driving read
+# T=1497900 [Monitor] captured read @addr 50, val=4622651897
+# T=1498500 [Driver]  driving read
+# T=1499900 [Monitor] captured read @addr 51, val=3249722163
+# T=1500500 [Driver]  driving read
+# T=1501900 [Monitor] captured read @addr 52, val=6955249813
+# T=1502500 [Driver]  driving read
+# T=1503900 [Monitor] captured read @addr 53, val=2018732643
+# T=1504500 [Driver]  driving read
+# T=1505900 [Monitor] captured read @addr 54, val=1298492268
+# T=1506500 [Driver]  driving read
+# T=1507900 [Monitor] captured read @addr 55, val=4432818582
+# T=1508500 [Driver]  driving read
+# T=1509900 [Monitor] captured read @addr 56, val=3472252599
+# T=1510500 [Driver]  driving read
+# T=1511900 [Monitor] captured read @addr 57, val=3302015541
+# T=1512500 [Driver]  driving read
+# T=1513900 [Monitor] captured read @addr 58, val=1403315042
+# T=1514500 [Driver]  driving read
+# T=1515900 [Monitor] captured read @addr 59, val=1549491691
+# T=1516500 [Driver]  driving read
+# T=1517900 [Monitor] captured read @addr 60, val=1443008633
+# T=1518500 [Driver]  driving read
+# T=1519900 [Monitor] captured read @addr 61, val=4279777961
+# T=1521900 [Monitor] captured read @addr 62, val=2841440069
+# T=1522000 [Generator] Has Completed!!!!!!!
+# T=1523900 [Monitor] captured read @addr 63, val=3409666212
+# RUNNING HAS COMPLETED. TESTS   PASSED!, 0/1280 Failed
+# ** Note: $stop    : /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/modelsim/mac_accel_tb.sv(474)
+#    Time: 1532 ns  Iteration: 0  Instance: /mac_accel_tb
+# Break in Module mac_accel_tb at /ubc/ece/home/ugrads/a/aolear01/CPEN402/lab3/pnr/modelsim/mac_accel_tb.sv line 474
+# End time: 17:49:01 on Dec 27,2025, Elapsed time: 0:09:50
+# Errors: 58, Warnings: 37
